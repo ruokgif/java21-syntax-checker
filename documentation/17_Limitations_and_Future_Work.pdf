@@ -1,0 +1,144 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612.0 792.0] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R /F3 7 0 R /F4 8 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 3327 >>
+stream
+q
+0.7 0.7 0.75 RG 0.5 w
+50.0 42.0 m 562.0 42.0 l S
+0.35 0.4 0.45 rg
+BT /F1 8 Tf 50.0 30.0 Td (Java 21 Syntax Checker | GNU Flex & Bison LALR\(1\)) Tj ET
+BT /F2 8 Tf 502.0 30.0 Td (Page 1) Tj ET
+Q
+q
+0.05 0.18 0.35 rg
+50.0 663.0 512.0 75 re f
+0.1 0.6 0.85 rg
+50.0 663.0 6 75 re f
+0.85 0.92 1.0 rg
+BT /F2 9 Tf 66.0 720.0 Td (COURSE-BASED PROJECT DOCUMENTATION | DOC-17) Tj ET
+1 1 1 rg
+BT /F2 16 Tf 66.0 698.0 Td (Limitations & Future Enhancements) Tj ET
+0.8 0.85 0.9 rg
+BT /F1 9.5 Tf 66.0 680.0 Td (Theoretical Boundaries & Prospective Architectural Improvements) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 628.0 3 14 re f
+BT /F2 12.5 Tf 58.0 630.0 Td (1. Actual Verified Limitations) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 625.0 m 562.0 625.0 l S
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 602.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 602.5 Td (1. Syntax-Only Verification: Does not perform semantic analysis, type checking, symbol resolution, or) Tj ET
+BT /F1 9.0 Tf 76.0 590.0 Td (class hierarchy validation.) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 573.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 573.5 Td (2. Single-Error Termination: In accordance with standard pure LALR\(1\) parsers, parsing halts upon) Tj ET
+BT /F1 9.0 Tf 76.0 561.0 Td (encountering the first syntax error.) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 544.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 544.5 Td (3. No Bytecode Generation: Does not emit JVM .class files or intermediate bytecode.) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 528.0 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 528.0 Td (4. No Runtime Execution: Does not run, debug, or profile Java programs.) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 511.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 511.5 Td (5. Finalized Java 21 Only: Experimental preview features \(e.g. String Templates preview\) are excluded.) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 492.5 3 14 re f
+BT /F2 12.5 Tf 58.0 494.5 Td (2. Prospective Future Enhancements \(Clearly Labeled as Future Work\)) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 489.5 m 562.0 489.5 l S
+Q
+q
+0.15 0.3 0.5 rg
+BT /F2 10.5 Tf 50.0 469.5 Td (A. Multi-Error Recovery Cascade) Tj ET
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 9.2 Tf 50.0 448.5 Td (Implementing Bison %destructor and error token recovery productions to resynchronize at statement) Tj ET
+BT /F1 9.2 Tf 50.0 435.5 Td (boundaries and report multiple errors in a single pass.) Tj ET
+Q
+q
+0.15 0.3 0.5 rg
+BT /F2 10.5 Tf 50.0 417.5 Td (B. Abstract Syntax Tree \(AST\) Generation & Visualization) Tj ET
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 9.2 Tf 50.0 396.5 Td (Extending grammar action rules to build a hierarchical AST in memory, serializable to JSON, and rendered as) Tj ET
+BT /F1 9.2 Tf 50.0 383.5 Td (an interactive tree in the GUI.) Tj ET
+Q
+q
+0.15 0.3 0.5 rg
+BT /F2 10.5 Tf 50.0 365.5 Td (C. Lightweight Semantic Symbol Table Pass) Tj ET
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 9.2 Tf 50.0 344.5 Td (Adding a post-parse symbol table pass to detect undeclared variable references and mismatched argument) Tj ET
+BT /F1 9.2 Tf 50.0 331.5 Td (counts.) Tj ET
+Q
+q
+0.15 0.3 0.5 rg
+BT /F2 10.5 Tf 50.0 313.5 Td (D. Cross-Platform Shared Libraries) Tj ET
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 9.2 Tf 50.0 292.5 Td (Extending Makefile targets to build native shared objects \(.so for Linux and .dylib for macOS\).) Tj ET
+Q
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+8 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000281 00000 n 
+0000003660 00000 n 
+0000003730 00000 n 
+0000003805 00000 n 
+0000003873 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+3946
+%%EOF

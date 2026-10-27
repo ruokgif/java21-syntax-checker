@@ -1,0 +1,203 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612.0 792.0] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R /F3 7 0 R /F4 8 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 5410 >>
+stream
+q
+0.7 0.7 0.75 RG 0.5 w
+50.0 42.0 m 562.0 42.0 l S
+0.35 0.4 0.45 rg
+BT /F1 8 Tf 50.0 30.0 Td (Java 21 Syntax Checker | GNU Flex & Bison LALR\(1\)) Tj ET
+BT /F2 8 Tf 502.0 30.0 Td (Page 1) Tj ET
+Q
+q
+0.05 0.18 0.35 rg
+50.0 663.0 512.0 75 re f
+0.1 0.6 0.85 rg
+50.0 663.0 6 75 re f
+0.85 0.92 1.0 rg
+BT /F2 9 Tf 66.0 720.0 Td (COURSE-BASED PROJECT DOCUMENTATION | DOC-06) Tj ET
+1 1 1 rg
+BT /F2 16 Tf 66.0 698.0 Td (Complete Execution Workflow) Tj ET
+0.8 0.85 0.9 rg
+BT /F1 9.5 Tf 66.0 680.0 Td (Internal Execution Trace, CLI Flow, & GUI Interactive Pipelines) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 628.0 3 14 re f
+BT /F2 12.5 Tf 58.0 630.0 Td (1. High-Level Pipeline \(Viva Explanation\)) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 625.0 m 562.0 625.0 l S
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 9.2 Tf 50.0 602.0 Td (The complete execution path from source file to graphical highlight proceeds as follows:) Tj ET
+Q
+q
+0.94 0.97 1.0 rg
+50.0 532.0 512.0 62.0 re f
+0.1 0.5 0.8 rg
+50.0 532.0 4 62.0 re f
+0.05 0.3 0.55 rg
+BT /F2 8.5 Tf 62.0 580.0 Td (VIVA ONE-SENTENCE PIPELINE) Tj ET
+0.15 0.2 0.25 rg
+BT /F1 8.8 Tf 62.0 568.0 Td (Java source file -> Flex lexer -> Token stream -> Bison LALR\(1\) parser -> Shift/Reduce actions -> Syntax) Tj ET
+BT /F1 8.8 Tf 62.0 556.0 Td (result -> javacheck.dll / javacheck.exe -> Python ctypes backend -> Tkinter GUI -> Result / error-line) Tj ET
+BT /F1 8.8 Tf 62.0 544.0 Td (highlighting) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 509.0 3 14 re f
+BT /F2 12.5 Tf 58.0 511.0 Td (2. Internal C Engine Execution Trace) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 506.0 m 562.0 506.0 l S
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 483.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 483.5 Td (1. check_syntax\(filepath, err_msg, len\) is called.) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 467.0 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 467.0 Td (2. State variables are reset: syntax_error_occurred = 0, error_line = 0, yylineno = 1, current_column =) Tj ET
+BT /F1 9.0 Tf 76.0 454.5 Td (1, yylloc = {1,1,1,1}.) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 438.0 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 438.0 Td (3. File handle is opened: FILE *f = fopen\(filepath, 'r'\). If NULL, returns 2 \(I/O error\).) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 421.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 421.5 Td (4. Scanner buffer is re-initialized: yyrestart\(f\); yyin = f;.) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 405.0 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 405.0 Td (5. Parser loop begins: yyparse\(\) is invoked.) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 388.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 388.5 Td (6. yyparse\(\) repeatedly calls yylex\(\) to fetch lookahead tokens.) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 372.0 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 372.0 Td (7. YY_USER_ACTION updates yylloc coordinates before every token action.) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 355.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 355.5 Td (8. Parser shifts tokens or reduces rules against LALR\(1\) tables.) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 339.0 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 339.0 Td (9. On syntax error, Bison calls yyerror\(\); error_line is extracted from yylloc.first_line.) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 322.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 322.5 Td (10. check_syntax\(\) closes file handle and formats result string.) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 303.5 3 14 re f
+BT /F2 12.5 Tf 58.0 305.5 Td (3. CLI vs. GUI Workflow Comparison) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 300.5 m 562.0 300.5 l S
+Q
+q
+0.08 0.22 0.4 rg
+50.0 270.5 512.0 20 re f
+1 1 1 rg
+BT /F2 8.5 Tf 56.0 277.5 Td (Workflow Step) Tj ET
+BT /F2 8.5 Tf 202.28571428571428 277.5 Td (CLI Execution \(javacheck.exe\)) Tj ET
+BT /F2 8.5 Tf 385.1428571428571 277.5 Td (GUI Execution \(gui/app.py\)) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 254.5 m 562.0 254.5 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 259.5 Td (Trigger) Tj ET
+BT /F1 8.2 Tf 202.28571428571428 259.5 Td (User runs command in shell) Tj ET
+BT /F1 8.2 Tf 385.1428571428571 259.5 Td (User presses Ctrl+Enter or clicks...) Tj ET
+0.95 0.97 0.99 rg
+50.0 238.5 512.0 16 re f
+0.85 0.88 0.92 RG 0.5 w
+50.0 238.5 m 562.0 238.5 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 243.5 Td (Input Source) Tj ET
+BT /F1 8.2 Tf 202.28571428571428 243.5 Td (Disk file path from argv[1]) Tj ET
+BT /F1 8.2 Tf 385.1428571428571 243.5 Td (In-memory editor text or opened file) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 222.5 m 562.0 222.5 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 227.5 Td (Invocation) Tj ET
+BT /F1 8.2 Tf 202.28571428571428 227.5 Td (Direct C main\(\) execution) Tj ET
+BT /F1 8.2 Tf 385.1428571428571 227.5 Td (In-memory ctypes CDLL invocation) Tj ET
+0.95 0.97 0.99 rg
+50.0 206.5 512.0 16 re f
+0.85 0.88 0.92 RG 0.5 w
+50.0 206.5 m 562.0 206.5 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 211.5 Td (Success Feedback) Tj ET
+BT /F1 8.2 Tf 202.28571428571428 211.5 Td (stdout: SUCCESS: Valid Java Syntax) Tj ET
+BT /F1 8.2 Tf 385.1428571428571 211.5 Td (Green status bar & clean editor) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 190.5 m 562.0 190.5 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 195.5 Td (Error Feedback) Tj ET
+BT /F1 8.2 Tf 202.28571428571428 195.5 Td (stderr: ERROR: Line X: Syntax err...) Tj ET
+BT /F1 8.2 Tf 385.1428571428571 195.5 Td (Red status bar, gutter color, lin...) Tj ET
+Q
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+8 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000281 00000 n 
+0000005743 00000 n 
+0000005813 00000 n 
+0000005888 00000 n 
+0000005956 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+6029
+%%EOF

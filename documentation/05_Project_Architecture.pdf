@@ -1,0 +1,150 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612.0 792.0] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R /F3 7 0 R /F4 8 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 6158 >>
+stream
+q
+0.7 0.7 0.75 RG 0.5 w
+50.0 42.0 m 562.0 42.0 l S
+0.35 0.4 0.45 rg
+BT /F1 8 Tf 50.0 30.0 Td (Java 21 Syntax Checker | GNU Flex & Bison LALR\(1\)) Tj ET
+BT /F2 8 Tf 502.0 30.0 Td (Page 1) Tj ET
+Q
+q
+0.05 0.18 0.35 rg
+50.0 663.0 512.0 75 re f
+0.1 0.6 0.85 rg
+50.0 663.0 6 75 re f
+0.85 0.92 1.0 rg
+BT /F2 9 Tf 66.0 720.0 Td (COURSE-BASED PROJECT DOCUMENTATION | DOC-05) Tj ET
+1 1 1 rg
+BT /F2 16 Tf 66.0 698.0 Td (System Architecture & Data Flow) Tj ET
+0.8 0.85 0.9 rg
+BT /F1 9.5 Tf 66.0 680.0 Td (Modular Front-End Compiler Architecture & Subsystem Boundaries) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 628.0 3 14 re f
+BT /F2 12.5 Tf 58.0 630.0 Td (1. End-to-End System Architecture) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 625.0 m 562.0 625.0 l S
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 9.2 Tf 50.0 602.0 Td (The project is structured into four distinct, loosely-coupled layers: Lexical Analysis, Syntax Parsing,) Tj ET
+BT /F1 9.2 Tf 50.0 589.0 Td (Native C Backend Interface, and the Graphical Application Layer.) Tj ET
+Q
+q
+0.12 0.14 0.18 rg
+50.0 263.2 512.0 317.8 re f
+0.25 0.3 0.38 RG 0.5 w
+50.0 263.2 512.0 317.8 re S
+0.85 0.9 0.95 rg
+BT /F3 7.2 Tf 60.0 571.0 Td (+-----------------------------------------------------------------------------------+) Tj ET
+BT /F3 7.2 Tf 60.0 561.2 Td (|                              1. Input Java Source                                 |) Tj ET
+BT /F3 7.2 Tf 60.0 551.4000000000001 Td (|                       \(User Editor Buffer or .java File\)                          |) Tj ET
+BT /F3 7.2 Tf 60.0 541.6000000000001 Td (+-----------------------------------------------------------------------------------+) Tj ET
+BT /F3 7.2 Tf 60.0 531.8000000000002 Td (                                         |) Tj ET
+BT /F3 7.2 Tf 60.0 522.0000000000002 Td (                                         v) Tj ET
+BT /F3 7.2 Tf 60.0 512.2000000000003 Td (+-----------------------------------------------------------------------------------+) Tj ET
+BT /F3 7.2 Tf 60.0 502.40000000000026 Td (|                        2. Lexical Analyzer \(GNU Flex\)                             |) Tj ET
+BT /F3 7.2 Tf 60.0 492.60000000000025 Td (|  - java_lexer.l -> lex.yy.c                                                       |) Tj ET
+BT /F3 7.2 Tf 60.0 482.80000000000024 Td (|  - Reads character stream via yyin; tracks line/column via YY_USER_ACTION         |) Tj ET
+BT /F3 7.2 Tf 60.0 473.0000000000002 Td (+-----------------------------------------------------------------------------------+) Tj ET
+BT /F3 7.2 Tf 60.0 463.2000000000002 Td (                                         | Stream of Tokens + \(yylval, yylloc\)) Tj ET
+BT /F3 7.2 Tf 60.0 453.4000000000002 Td (                                         v) Tj ET
+BT /F3 7.2 Tf 60.0 443.6000000000002 Td (+-----------------------------------------------------------------------------------+) Tj ET
+BT /F3 7.2 Tf 60.0 433.8000000000002 Td (|                     3. LALR\(1\) Syntax Parser \(GNU Bison\)                          |) Tj ET
+BT /F3 7.2 Tf 60.0 424.00000000000017 Td (|  - java_parser.y -> java_parser.tab.c                                             |) Tj ET
+BT /F3 7.2 Tf 60.0 414.20000000000016 Td (|  - Shift-Reduce State Machine \(998+ states\); verifies Java 21 CFG rules           |) Tj ET
+BT /F3 7.2 Tf 60.0 404.40000000000015 Td (+-----------------------------------------------------------------------------------+) Tj ET
+BT /F3 7.2 Tf 60.0 394.60000000000014 Td (                                         | Return Code \(0: OK, 1: Error, 2: IO\)) Tj ET
+BT /F3 7.2 Tf 60.0 384.8000000000001 Td (                                         v) Tj ET
+BT /F3 7.2 Tf 60.0 375.0000000000001 Td (+-----------------------------------------------------------------------------------+) Tj ET
+BT /F3 7.2 Tf 60.0 365.2000000000001 Td (|                    4. Native C Interface \(Shared Library / CLI\)                   |) Tj ET
+BT /F3 7.2 Tf 60.0 355.4000000000001 Td (|  - javacheck.dll \(Windows DLL\) / javacheck.exe \(CLI binary\)                       |) Tj ET
+BT /F3 7.2 Tf 60.0 345.6000000000001 Td (+-----------------------------------------------------------------------------------+) Tj ET
+BT /F3 7.2 Tf 60.0 335.80000000000007 Td (                                         | Python ctypes in-memory FFI) Tj ET
+BT /F3 7.2 Tf 60.0 326.00000000000006 Td (                                         v) Tj ET
+BT /F3 7.2 Tf 60.0 316.20000000000005 Td (+-----------------------------------------------------------------------------------+) Tj ET
+BT /F3 7.2 Tf 60.0 306.40000000000003 Td (|                        5. Python Tkinter Application                              |) Tj ET
+BT /F3 7.2 Tf 60.0 296.6 Td (|  - gui/app.py -> ParserBackend, LineNumberText, CommandPalette                    |) Tj ET
+BT /F3 7.2 Tf 60.0 286.8 Td (|  - High-visibility red line highlight \(#5a1d1d\) & status bar feedback             |) Tj ET
+BT /F3 7.2 Tf 60.0 277.0 Td (+-----------------------------------------------------------------------------------+) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 240.2 3 14 re f
+BT /F2 12.5 Tf 58.0 242.2 Td (2. Component Responsibilities) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 237.2 m 562.0 237.2 l S
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 214.7 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 214.7 Td (Flex Scanner: Strips comments/whitespace, tracks line coordinates, emits token codes.) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 198.2 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 198.2 Td (Bison Parser: Executes LALR\(1\) shift-reduce transitions, catches errors via yyerror\(\).) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 181.7 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 181.7 Td (Native C Engine: Resets state, opens file streams, formats standardized error strings.) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 165.2 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 165.2 Td (Python ctypes FFI: Loads javacheck.dll in memory, allocates string buffers, executes checks.) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 148.7 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 148.7 Td (Tkinter GUI: Renders dark editor, synchronizes line numbers, applies visual error tags.) Tj ET
+Q
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+8 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000281 00000 n 
+0000006491 00000 n 
+0000006561 00000 n 
+0000006636 00000 n 
+0000006704 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+6777
+%%EOF

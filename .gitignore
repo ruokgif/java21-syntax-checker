@@ -1,0 +1,25 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+env/
+ENV/
+
+# C / Parser build artifacts (will be built on Render inside Docker)
+javacheck.exe
+javacheck.dll
+javacheck
+*.o
+*.class
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+temp_test*.java
+test_*.exe

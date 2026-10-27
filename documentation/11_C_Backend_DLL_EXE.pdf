@@ -1,0 +1,146 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612.0 792.0] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R /F3 7 0 R /F4 8 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 3776 >>
+stream
+q
+0.7 0.7 0.75 RG 0.5 w
+50.0 42.0 m 562.0 42.0 l S
+0.35 0.4 0.45 rg
+BT /F1 8 Tf 50.0 30.0 Td (Java 21 Syntax Checker | GNU Flex & Bison LALR\(1\)) Tj ET
+BT /F2 8 Tf 502.0 30.0 Td (Page 1) Tj ET
+Q
+q
+0.05 0.18 0.35 rg
+50.0 663.0 512.0 75 re f
+0.1 0.6 0.85 rg
+50.0 663.0 6 75 re f
+0.85 0.92 1.0 rg
+BT /F2 9 Tf 66.0 720.0 Td (COURSE-BASED PROJECT DOCUMENTATION | DOC-11) Tj ET
+1 1 1 rg
+BT /F2 16 Tf 66.0 698.0 Td (Native C Backend \(DLL & EXE\)) Tj ET
+0.8 0.85 0.9 rg
+BT /F1 9.5 Tf 66.0 680.0 Td (C ABI Export, Memory Buffers, Return Codes, & Compilation) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 628.0 3 14 re f
+BT /F2 12.5 Tf 58.0 630.0 Td (1. C Backend Architecture) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 625.0 m 562.0 625.0 l S
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 9.2 Tf 50.0 602.0 Td (The parsing core is implemented in C99, linking the Bison-generated parser \(java_parser.tab.c\) and) Tj ET
+BT /F1 9.2 Tf 50.0 589.0 Td (Flex-generated scanner \(lex.yy.c\). It is compiled with GCC into both a shared dynamic link library) Tj ET
+BT /F1 9.2 Tf 50.0 576.0 Td (\(javacheck.dll\) and a standalone command-line executable \(javacheck.exe\).) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 553.0 3 14 re f
+BT /F2 12.5 Tf 58.0 555.0 Td (2. C ABI Export: check_syntax\(\)) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 550.0 m 562.0 550.0 l S
+Q
+q
+0.12 0.14 0.18 rg
+50.0 410.5 512.0 129.5 re f
+0.25 0.3 0.38 RG 0.5 w
+50.0 410.5 512.0 129.5 re S
+0.85 0.9 0.95 rg
+BT /F3 7.5 Tf 60.0 530.0 Td (#ifdef _WIN32) Tj ET
+BT /F3 7.5 Tf 60.0 519.5 Td (__declspec\(dllexport\)) Tj ET
+BT /F3 7.5 Tf 60.0 509.0 Td (#endif) Tj ET
+BT /F3 7.5 Tf 60.0 498.5 Td (int check_syntax\(const char *filepath, char *err_msg, int err_msg_len\) {) Tj ET
+BT /F3 7.5 Tf 60.0 488.0 Td (    // 1. Reset state variables \(yylineno, current_column, error_line, yylloc\)) Tj ET
+BT /F3 7.5 Tf 60.0 477.5 Td (    // 2. Open file stream: fopen\(filepath, "r"\)) Tj ET
+BT /F3 7.5 Tf 60.0 467.0 Td (    // 3. Re-initialize scanner: yyrestart\(f\); yyin = f;) Tj ET
+BT /F3 7.5 Tf 60.0 456.5 Td (    // 4. Execute parser: int result = yyparse\(\);) Tj ET
+BT /F3 7.5 Tf 60.0 446.0 Td (    // 5. Close file and write formatted message to err_msg) Tj ET
+BT /F3 7.5 Tf 60.0 435.5 Td (    // 6. Return 0 \(Success\), 1 \(Syntax Error\), or 2 \(File Error\)) Tj ET
+BT /F3 7.5 Tf 60.0 425.0 Td (}) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 387.5 3 14 re f
+BT /F2 12.5 Tf 58.0 389.5 Td (3. Standard Return Code Contract) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 384.5 m 562.0 384.5 l S
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 362.0 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 362.0 Td (Return 0: Valid Java syntax; err_msg = 'SUCCESS: Valid Java Syntax') Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 345.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 345.5 Td (Return 1: Syntax error detected; err_msg = 'ERROR: Line X: Syntax error near 'token'') Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 329.0 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 329.0 Td (Return 2: System or file I/O error; err_msg = 'ERROR: Could not open file '...') Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 310.0 3 14 re f
+BT /F2 12.5 Tf 58.0 312.0 Td (4. Native Compilation Commands) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 307.0 m 562.0 307.0 l S
+Q
+q
+0.12 0.14 0.18 rg
+50.0 220.0 512.0 77.0 re f
+0.25 0.3 0.38 RG 0.5 w
+50.0 220.0 512.0 77.0 re S
+0.85 0.9 0.95 rg
+BT /F3 7.5 Tf 60.0 287.0 Td (# Compile Shared Library \(DLL\)) Tj ET
+BT /F3 7.5 Tf 60.0 276.5 Td (gcc -O2 -shared -Iparser -Ilexer parser/java_parser.tab.c lexer/lex.yy.c -o javacheck) Tj ET
+BT /F3 7.5 Tf 60.0 266.0 Td (  .dll) Tj ET
+BT /F3 7.5 Tf 60.0 255.5 Td () Tj ET
+BT /F3 7.5 Tf 60.0 245.0 Td (# Compile Standalone CLI Executable) Tj ET
+BT /F3 7.5 Tf 60.0 234.5 Td (gcc -O2 -Iparser -Ilexer parser/java_parser.tab.c lexer/lex.yy.c -o javacheck.exe) Tj ET
+Q
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+8 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000281 00000 n 
+0000004109 00000 n 
+0000004179 00000 n 
+0000004254 00000 n 
+0000004322 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+4395
+%%EOF

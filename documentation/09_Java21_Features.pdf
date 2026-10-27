@@ -1,0 +1,195 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612.0 792.0] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R /F3 7 0 R /F4 8 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 6128 >>
+stream
+q
+0.7 0.7 0.75 RG 0.5 w
+50.0 42.0 m 562.0 42.0 l S
+0.35 0.4 0.45 rg
+BT /F1 8 Tf 50.0 30.0 Td (Java 21 Syntax Checker | GNU Flex & Bison LALR\(1\)) Tj ET
+BT /F2 8 Tf 502.0 30.0 Td (Page 1) Tj ET
+Q
+q
+0.05 0.18 0.35 rg
+50.0 663.0 512.0 75 re f
+0.1 0.6 0.85 rg
+50.0 663.0 6 75 re f
+0.85 0.92 1.0 rg
+BT /F2 9 Tf 66.0 720.0 Td (COURSE-BASED PROJECT DOCUMENTATION | DOC-09) Tj ET
+1 1 1 rg
+BT /F2 16 Tf 66.0 698.0 Td (Java 21 Language Features Supported) Tj ET
+0.8 0.85 0.9 rg
+BT /F1 9.5 Tf 66.0 680.0 Td (Modern Java 21 LTS Syntax Conformance & Grammar Rules) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 628.0 3 14 re f
+BT /F2 12.5 Tf 58.0 630.0 Td (1. Supported Java 21 Features \(Verified in Repository\)) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 625.0 m 562.0 625.0 l S
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 9.2 Tf 50.0 602.0 Td (The parser implements full grammatical support for modern Java 21 LTS finalized syntax:) Tj ET
+Q
+q
+0.08 0.22 0.4 rg
+50.0 574.0 512.0 20 re f
+1 1 1 rg
+BT /F2 8.5 Tf 56.0 581.0 Td (Feature Category) Tj ET
+BT /F2 8.5 Tf 212.44444444444446 581.0 Td (Java 21 Syntax Example) Tj ET
+BT /F2 8.5 Tf 425.77777777777777 581.0 Td (Test Verification File) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 558.0 m 562.0 558.0 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 563.0 Td (Record Declarations) Tj ET
+BT /F1 8.2 Tf 212.44444444444446 563.0 Td (public record Point\(int x, int y\) {}) Tj ET
+BT /F1 8.2 Tf 425.77777777777777 563.0 Td (tests/valid_full.java) Tj ET
+0.95 0.97 0.99 rg
+50.0 542.0 512.0 16 re f
+0.85 0.88 0.92 RG 0.5 w
+50.0 542.0 m 562.0 542.0 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 547.0 Td (Compact Record Const.) Tj ET
+BT /F1 8.2 Tf 212.44444444444446 547.0 Td (public Point { Objects.requireNonNull\(x...) Tj ET
+BT /F1 8.2 Tf 425.77777777777777 547.0 Td (tests/test_record_compact...) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 526.0 m 562.0 526.0 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 531.0 Td (Record Patterns \(JEP 440\)) Tj ET
+BT /F1 8.2 Tf 212.44444444444446 531.0 Td (p instanceof Point\(var x, var y\)) Tj ET
+BT /F1 8.2 Tf 425.77777777777777 531.0 Td (tests/java21_record_patte...) Tj ET
+0.95 0.97 0.99 rg
+50.0 510.0 512.0 16 re f
+0.85 0.88 0.92 RG 0.5 w
+50.0 510.0 m 562.0 510.0 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 515.0 Td (Nested Record Patterns) Tj ET
+BT /F1 8.2 Tf 212.44444444444446 515.0 Td (p instanceof Box\(Point\(int x, int y\)\)) Tj ET
+BT /F1 8.2 Tf 425.77777777777777 515.0 Td (tests/java21_record_patte...) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 494.0 m 562.0 494.0 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 499.0 Td (Switch Patterns \(JEP 441\)) Tj ET
+BT /F1 8.2 Tf 212.44444444444446 499.0 Td (case Point\(double x, double y\) -> ...) Tj ET
+BT /F1 8.2 Tf 425.77777777777777 499.0 Td (tests/java21_switch_patte...) Tj ET
+0.95 0.97 0.99 rg
+50.0 478.0 512.0 16 re f
+0.85 0.88 0.92 RG 0.5 w
+50.0 478.0 m 562.0 478.0 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 483.0 Td (Switch Guards \(when\)) Tj ET
+BT /F1 8.2 Tf 212.44444444444446 483.0 Td (case Point\(int x, int y\) when x > 0 ->) Tj ET
+BT /F1 8.2 Tf 425.77777777777777 483.0 Td (tests/java21_switch_patte...) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 462.0 m 562.0 462.0 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 467.0 Td (Sealed Types) Tj ET
+BT /F1 8.2 Tf 212.44444444444446 467.0 Td (sealed interface Shape permits Circle {}) Tj ET
+BT /F1 8.2 Tf 425.77777777777777 467.0 Td (tests/test_advanced.java) Tj ET
+0.95 0.97 0.99 rg
+50.0 446.0 512.0 16 re f
+0.85 0.88 0.92 RG 0.5 w
+50.0 446.0 m 562.0 446.0 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 451.0 Td (Text Blocks) Tj ET
+BT /F1 8.2 Tf 212.44444444444446 451.0 Td (String s = """
+  Hello World
+  """;) Tj ET
+BT /F1 8.2 Tf 425.77777777777777 451.0 Td (tests/err_text_block.java) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 430.0 m 562.0 430.0 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 435.0 Td (Unsigned Right Shift) Tj ET
+BT /F1 8.2 Tf 212.44444444444446 435.0 Td (a >>>= 2;) Tj ET
+BT /F1 8.2 Tf 425.77777777777777 435.0 Td (tests/test_urshift_assign...) Tj ET
+0.95 0.97 0.99 rg
+50.0 414.0 512.0 16 re f
+0.85 0.88 0.92 RG 0.5 w
+50.0 414.0 m 562.0 414.0 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 419.0 Td (Module Info) Tj ET
+BT /F1 8.2 Tf 212.44444444444446 419.0 Td (module com.app { requires java.base; }) Tj ET
+BT /F1 8.2 Tf 425.77777777777777 419.0 Td (tests/test_module_info.java) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 398.0 m 562.0 398.0 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 403.0 Td (Ragged Arrays) Tj ET
+BT /F1 8.2 Tf 212.44444444444446 403.0 Td (int[][] matrix = new int[5][];) Tj ET
+BT /F1 8.2 Tf 425.77777777777777 403.0 Td (tests/test_array_ragged.java) Tj ET
+0.95 0.97 0.99 rg
+50.0 382.0 512.0 16 re f
+0.85 0.88 0.92 RG 0.5 w
+50.0 382.0 m 562.0 382.0 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 387.0 Td (Multi Try-with-Resources) Tj ET
+BT /F1 8.2 Tf 212.44444444444446 387.0 Td (try \(R r1 = a; R r2 = b;\) { ... }) Tj ET
+BT /F1 8.2 Tf 425.77777777777777 387.0 Td (tests/test_try_resources_...) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 357.0 3 14 re f
+BT /F2 12.5 Tf 58.0 359.0 Td (2. Code Snippet: Java 21 Pattern Matching with Guard) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 354.0 m 562.0 354.0 l S
+Q
+q
+0.12 0.14 0.18 rg
+50.0 193.5 512.0 150.5 re f
+0.25 0.3 0.38 RG 0.5 w
+50.0 193.5 512.0 150.5 re S
+0.85 0.9 0.95 rg
+BT /F3 7.5 Tf 60.0 334.0 Td (public class PatternDemo {) Tj ET
+BT /F3 7.5 Tf 60.0 323.5 Td (    public record Point\(double x, double y\) {}) Tj ET
+BT /F3 7.5 Tf 60.0 313.0 Td () Tj ET
+BT /F3 7.5 Tf 60.0 302.5 Td (    public static String classify\(Object obj\) {) Tj ET
+BT /F3 7.5 Tf 60.0 292.0 Td (        return switch \(obj\) {) Tj ET
+BT /F3 7.5 Tf 60.0 281.5 Td (            case null -> "Null reference";) Tj ET
+BT /F3 7.5 Tf 60.0 271.0 Td (            case Point\(double x, double y\) when x > 0 && y > 0 -> "Quadrant I Point";) Tj ET
+BT /F3 7.5 Tf 60.0 260.5 Td (            case Point\(double x, double y\) -> "Other Point";) Tj ET
+BT /F3 7.5 Tf 60.0 250.0 Td (            case String s -> "String: " + s;) Tj ET
+BT /F3 7.5 Tf 60.0 239.5 Td (            default -> "Unknown Object";) Tj ET
+BT /F3 7.5 Tf 60.0 229.0 Td (        };) Tj ET
+BT /F3 7.5 Tf 60.0 218.5 Td (    }) Tj ET
+BT /F3 7.5 Tf 60.0 208.0 Td (}) Tj ET
+Q
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+8 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000281 00000 n 
+0000006461 00000 n 
+0000006531 00000 n 
+0000006606 00000 n 
+0000006674 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+6747
+%%EOF

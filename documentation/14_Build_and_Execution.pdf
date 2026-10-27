@@ -1,0 +1,180 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612.0 792.0] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R /F3 7 0 R /F4 8 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 3973 >>
+stream
+q
+0.7 0.7 0.75 RG 0.5 w
+50.0 42.0 m 562.0 42.0 l S
+0.35 0.4 0.45 rg
+BT /F1 8 Tf 50.0 30.0 Td (Java 21 Syntax Checker | GNU Flex & Bison LALR\(1\)) Tj ET
+BT /F2 8 Tf 502.0 30.0 Td (Page 1) Tj ET
+Q
+q
+0.05 0.18 0.35 rg
+50.0 663.0 512.0 75 re f
+0.1 0.6 0.85 rg
+50.0 663.0 6 75 re f
+0.85 0.92 1.0 rg
+BT /F2 9 Tf 66.0 720.0 Td (COURSE-BASED PROJECT DOCUMENTATION | DOC-14) Tj ET
+1 1 1 rg
+BT /F2 16 Tf 66.0 698.0 Td (Build Automation & Execution) Tj ET
+0.8 0.85 0.9 rg
+BT /F1 9.5 Tf 66.0 680.0 Td (Multi-Platform Build Scripts, Compilation, & CLI/GUI Commands) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 628.0 3 14 re f
+BT /F2 12.5 Tf 58.0 630.0 Td (1. Build Automation Overview) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 625.0 m 562.0 625.0 l S
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 9.2 Tf 50.0 602.0 Td (The repository provides three automated build pipelines supporting different development environments:) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 581.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 581.5 Td (Windows Command Prompt: build.bat) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 565.0 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 565.0 Td (Windows PowerShell: build.ps1) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 548.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 548.5 Td (Cross-Platform GNU Make: Makefile) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 529.5 3 14 re f
+BT /F2 12.5 Tf 58.0 531.5 Td (2. Sequential Build Steps) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 526.5 m 562.0 526.5 l S
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 504.0 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 504.0 Td (Step 1: Checks for flex, bison, and gcc in system PATH \(injects MSYS2 UCRT64 paths\).) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 487.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 487.5 Td (Step 2: bison -v -d parser/java_parser.y --report-file=parser/java_parser.output -o) Tj ET
+BT /F1 9.0 Tf 76.0 475.0 Td (parser/java_parser.tab.c) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 458.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 458.5 Td (Step 3: flex -o lexer/lex.yy.c lexer/java_lexer.l) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 442.0 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 442.0 Td (Step 4: gcc -O2 -shared -Iparser -Ilexer parser/java_parser.tab.c lexer/lex.yy.c -o javacheck.dll) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 425.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 425.5 Td (Step 5: gcc -O2 -Iparser -Ilexer parser/java_parser.tab.c lexer/lex.yy.c -o javacheck.exe) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 406.5 3 14 re f
+BT /F2 12.5 Tf 58.0 408.5 Td (3. How to Run the System) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 403.5 m 562.0 403.5 l S
+Q
+q
+0.15 0.3 0.5 rg
+BT /F2 10.5 Tf 50.0 383.5 Td (Launch Graphical User Interface:) Tj ET
+Q
+q
+0.12 0.14 0.18 rg
+50.0 351.0 512.0 24.5 re f
+0.25 0.3 0.38 RG 0.5 w
+50.0 351.0 512.0 24.5 re S
+0.85 0.9 0.95 rg
+BT /F3 7.5 Tf 60.0 365.5 Td (python gui/app.py) Tj ET
+Q
+q
+0.15 0.3 0.5 rg
+BT /F2 10.5 Tf 50.0 333.0 Td (Execute Command-Line Syntax Check:) Tj ET
+Q
+q
+0.12 0.14 0.18 rg
+50.0 237.5 512.0 87.5 re f
+0.25 0.3 0.38 RG 0.5 w
+50.0 237.5 512.0 87.5 re S
+0.85 0.9 0.95 rg
+BT /F3 7.5 Tf 60.0 315.0 Td (# Check valid file) Tj ET
+BT /F3 7.5 Tf 60.0 304.5 Td (javacheck.exe tests/valid_1.java) Tj ET
+BT /F3 7.5 Tf 60.0 294.0 Td (# Output: SUCCESS: Valid Java Syntax) Tj ET
+BT /F3 7.5 Tf 60.0 283.5 Td () Tj ET
+BT /F3 7.5 Tf 60.0 273.0 Td (# Check invalid file) Tj ET
+BT /F3 7.5 Tf 60.0 262.5 Td (javacheck.exe tests/invalid_2.java) Tj ET
+BT /F3 7.5 Tf 60.0 252.0 Td (# Output: ERROR: Line 2: Syntax error near ';') Tj ET
+Q
+q
+0.15 0.3 0.5 rg
+BT /F2 10.5 Tf 50.0 219.5 Td (Run Automated Regression Test Suites:) Tj ET
+Q
+q
+0.12 0.14 0.18 rg
+50.0 176.5 512.0 35.0 re f
+0.25 0.3 0.38 RG 0.5 w
+50.0 176.5 512.0 35.0 re S
+0.85 0.9 0.95 rg
+BT /F3 7.5 Tf 60.0 201.5 Td (python tests/run_tests.py         # Runs 59 parser tests) Tj ET
+BT /F3 7.5 Tf 60.0 191.0 Td (python tests/test_gui_backend.py  # Runs 14 GUI integration tests) Tj ET
+Q
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+8 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000281 00000 n 
+0000004306 00000 n 
+0000004376 00000 n 
+0000004451 00000 n 
+0000004519 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+4592
+%%EOF

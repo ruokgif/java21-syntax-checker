@@ -1,0 +1,145 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612.0 792.0] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R /F3 7 0 R /F4 8 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 3685 >>
+stream
+q
+0.7 0.7 0.75 RG 0.5 w
+50.0 42.0 m 562.0 42.0 l S
+0.35 0.4 0.45 rg
+BT /F1 8 Tf 50.0 30.0 Td (Java 21 Syntax Checker | GNU Flex & Bison LALR\(1\)) Tj ET
+BT /F2 8 Tf 502.0 30.0 Td (Page 1) Tj ET
+Q
+q
+0.05 0.18 0.35 rg
+50.0 663.0 512.0 75 re f
+0.1 0.6 0.85 rg
+50.0 663.0 6 75 re f
+0.85 0.92 1.0 rg
+BT /F2 9 Tf 66.0 720.0 Td (COURSE-BASED PROJECT DOCUMENTATION | DOC-04) Tj ET
+1 1 1 rg
+BT /F2 16 Tf 66.0 698.0 Td (Grammar Source & Bison Adaptation) Tj ET
+0.8 0.85 0.9 rg
+BT /F1 9.5 Tf 66.0 680.0 Td (ANTLR4 Reference Grammar Adaptation to LALR\(1\) Shift-Reduce) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 628.0 3 14 re f
+BT /F2 12.5 Tf 58.0 630.0 Td (1. Grammar Source and Origin) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 625.0 m 562.0 625.0 l S
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 9.2 Tf 50.0 602.0 Td (The reference grammar for this project was derived from the official ANTLR4 Java grammar repository:) Tj ET
+BT /F1 9.2 Tf 50.0 589.0 Td (grammar/original/JavaLexer.g4 and grammar/original/JavaParser.g4. ANTLR4 uses an ALL\(*\) top-down) Tj ET
+BT /F1 9.2 Tf 50.0 576.0 Td (recursive-descent parsing algorithm with arbitrary lookahead and semantic predicates. Because GNU Bison) Tj ET
+BT /F1 9.2 Tf 50.0 563.0 Td (uses a deterministic bottom-up LALR\(1\) algorithm, the reference grammar had to be structurally adapted.) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 540.0 3 14 re f
+BT /F2 12.5 Tf 58.0 542.0 Td (2. Fundamental Adaptations for GNU Bison LALR\(1\)) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 537.0 m 562.0 537.0 l S
+Q
+q
+0.15 0.3 0.5 rg
+BT /F2 10.5 Tf 50.0 517.0 Td (A. Left-Recursion Conversion) Tj ET
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 9.2 Tf 50.0 496.0 Td (ANTLR4 expresses repetitive lists using EBNF operators \(*, +\). In Bison LALR\(1\), lists are structured using) Tj ET
+BT /F1 9.2 Tf 50.0 483.0 Td (left-recursive productions to ensure constant stack space during reduction:) Tj ET
+Q
+q
+0.12 0.14 0.18 rg
+50.0 408.5 512.0 66.5 re f
+0.25 0.3 0.38 RG 0.5 w
+50.0 408.5 512.0 66.5 re S
+0.85 0.9 0.95 rg
+BT /F3 7.5 Tf 60.0 465.0 Td (// Left-recursive list in Bison LALR\(1\)) Tj ET
+BT /F3 7.5 Tf 60.0 454.5 Td (typeList:) Tj ET
+BT /F3 7.5 Tf 60.0 444.0 Td (      typeType) Tj ET
+BT /F3 7.5 Tf 60.0 433.5 Td (    | typeList COMMA typeType) Tj ET
+BT /F3 7.5 Tf 60.0 423.0 Td (    ;) Tj ET
+Q
+q
+0.15 0.3 0.5 rg
+BT /F2 10.5 Tf 50.0 390.5 Td (B. Dangling-Else Disambiguation) Tj ET
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 9.2 Tf 50.0 369.5 Td (Resolved using operator precedence directives to bind 'else' to the innermost 'if':) Tj ET
+Q
+q
+0.12 0.14 0.18 rg
+50.0 274.0 512.0 87.5 re f
+0.25 0.3 0.38 RG 0.5 w
+50.0 274.0 512.0 87.5 re S
+0.85 0.9 0.95 rg
+BT /F3 7.5 Tf 60.0 351.5 Td (%nonassoc LOWER_THAN_ELSE) Tj ET
+BT /F3 7.5 Tf 60.0 341.0 Td (%nonassoc ELSE) Tj ET
+BT /F3 7.5 Tf 60.0 330.5 Td () Tj ET
+BT /F3 7.5 Tf 60.0 320.0 Td (statement:) Tj ET
+BT /F3 7.5 Tf 60.0 309.5 Td (      IF LPAREN expression RPAREN statement %prec LOWER_THAN_ELSE) Tj ET
+BT /F3 7.5 Tf 60.0 299.0 Td (    | IF LPAREN expression RPAREN statement ELSE statement) Tj ET
+BT /F3 7.5 Tf 60.0 288.5 Td (    ;) Tj ET
+Q
+q
+0.15 0.3 0.5 rg
+BT /F2 10.5 Tf 50.0 256.0 Td (C. Java 21 Switch Guard Isolation \(when clauses\)) Tj ET
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 9.2 Tf 50.0 235.0 Td (Disambiguated boolean guard expressions from switch case arrows \(->\) using a dedicated guardExpression) Tj ET
+BT /F1 9.2 Tf 50.0 222.0 Td (nonterminal.) Tj ET
+Q
+q
+0.15 0.3 0.5 rg
+BT /F2 10.5 Tf 50.0 204.0 Td (D. Ragged & Multidimensional Array Dimensions) Tj ET
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 9.2 Tf 50.0 183.0 Td (Stratified array creation rules into explicit non-empty dimension expressions followed by optional empty) Tj ET
+BT /F1 9.2 Tf 50.0 170.0 Td (brackets \(new int[5][]\).) Tj ET
+Q
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+8 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000281 00000 n 
+0000004018 00000 n 
+0000004088 00000 n 
+0000004163 00000 n 
+0000004231 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+4304
+%%EOF

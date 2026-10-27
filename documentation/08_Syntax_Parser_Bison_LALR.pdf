@@ -1,0 +1,200 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612.0 792.0] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R /F3 7 0 R /F4 8 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 5798 >>
+stream
+q
+0.7 0.7 0.75 RG 0.5 w
+50.0 42.0 m 562.0 42.0 l S
+0.35 0.4 0.45 rg
+BT /F1 8 Tf 50.0 30.0 Td (Java 21 Syntax Checker | GNU Flex & Bison LALR\(1\)) Tj ET
+BT /F2 8 Tf 502.0 30.0 Td (Page 1) Tj ET
+Q
+q
+0.05 0.18 0.35 rg
+50.0 663.0 512.0 75 re f
+0.1 0.6 0.85 rg
+50.0 663.0 6 75 re f
+0.85 0.92 1.0 rg
+BT /F2 9 Tf 66.0 720.0 Td (COURSE-BASED PROJECT DOCUMENTATION | DOC-08) Tj ET
+1 1 1 rg
+BT /F2 16 Tf 66.0 698.0 Td (Syntax Parser \(GNU Bison LALR\(1\)\)) Tj ET
+0.8 0.85 0.9 rg
+BT /F1 9.5 Tf 66.0 680.0 Td (Context-Free Grammars, Shift-Reduce Automata, & Conflict Profile) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 628.0 3 14 re f
+BT /F2 12.5 Tf 58.0 630.0 Td (1. Syntax Analysis & Context-Free Grammars) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 625.0 m 562.0 625.0 l S
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 9.2 Tf 50.0 602.0 Td (Syntax analysis groups the stream of tokens into grammatical structures defined by a Context-Free Grammar) Tj ET
+BT /F1 9.2 Tf 50.0 589.0 Td (\(CFG\). GNU Bison generates a deterministic bottom-up LALR\(1\) \(Look-Ahead Left-to-Right with 1 token) Tj ET
+BT /F1 9.2 Tf 50.0 576.0 Td (lookahead\) state machine. The parser maintains a parse stack and consults Action and Goto tables to perform) Tj ET
+BT /F1 9.2 Tf 50.0 563.0 Td (Shift and Reduce operations.) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 540.0 3 14 re f
+BT /F2 12.5 Tf 58.0 542.0 Td (2. Shift-Reduce Parser Operations) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 537.0 m 562.0 537.0 l S
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 514.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 514.5 Td (Shift: Pushes the current lookahead token onto the stack and advances the input stream.) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 498.0 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 498.0 Td (Reduce: Replaces a sequence of grammar symbols on top of the stack matching rule A -> alpha with) Tj ET
+BT /F1 9.0 Tf 76.0 485.5 Td (nonterminal A.) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 469.0 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 469.0 Td (Accept: Start symbol compilationUnit is reduced on EOF \($end\); syntax is valid.) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 452.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 452.5 Td (Error: Action table entry is empty for the \(State, Token\) pair; triggers yyerror\(\).) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 433.5 3 14 re f
+BT /F2 12.5 Tf 58.0 435.5 Td (3. Operator Precedence & Associativity Table) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 430.5 m 562.0 430.5 l S
+Q
+q
+0.08 0.22 0.4 rg
+50.0 400.5 512.0 20 re f
+1 1 1 rg
+BT /F2 8.5 Tf 56.0 407.5 Td (Precedence Level) Tj ET
+BT /F2 8.5 Tf 216.91428571428574 407.5 Td (Associativity) Tj ET
+BT /F2 8.5 Tf 348.5714285714286 407.5 Td (Operators / Directives) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 384.5 m 562.0 384.5 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 389.5 Td (1. Dangling Else) Tj ET
+BT /F1 8.2 Tf 216.91428571428574 389.5 Td (%nonassoc) Tj ET
+BT /F1 8.2 Tf 348.5714285714286 389.5 Td (LOWER_THAN_ELSE, ELSE) Tj ET
+0.95 0.97 0.99 rg
+50.0 368.5 512.0 16 re f
+0.85 0.88 0.92 RG 0.5 w
+50.0 368.5 m 562.0 368.5 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 373.5 Td (2. Lambda Arrow) Tj ET
+BT /F1 8.2 Tf 216.91428571428574 373.5 Td (%right) Tj ET
+BT /F1 8.2 Tf 348.5714285714286 373.5 Td (ARROW \(->\)) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 352.5 m 562.0 352.5 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 357.5 Td (3. Assignments) Tj ET
+BT /F1 8.2 Tf 216.91428571428574 357.5 Td (%right) Tj ET
+BT /F1 8.2 Tf 348.5714285714286 357.5 Td (=, +=, -=, *=, /=, %=, &=, ^=, |=, <<=, ...) Tj ET
+0.95 0.97 0.99 rg
+50.0 336.5 512.0 16 re f
+0.85 0.88 0.92 RG 0.5 w
+50.0 336.5 m 562.0 336.5 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 341.5 Td (4. Ternary) Tj ET
+BT /F1 8.2 Tf 216.91428571428574 341.5 Td (%right) Tj ET
+BT /F1 8.2 Tf 348.5714285714286 341.5 Td (?, :) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 320.5 m 562.0 320.5 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 325.5 Td (5. Logical OR / AND) Tj ET
+BT /F1 8.2 Tf 216.91428571428574 325.5 Td (%left) Tj ET
+BT /F1 8.2 Tf 348.5714285714286 325.5 Td (||, &&) Tj ET
+0.95 0.97 0.99 rg
+50.0 304.5 512.0 16 re f
+0.85 0.88 0.92 RG 0.5 w
+50.0 304.5 m 562.0 304.5 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 309.5 Td (6. Equality / Relational) Tj ET
+BT /F1 8.2 Tf 216.91428571428574 309.5 Td (%left) Tj ET
+BT /F1 8.2 Tf 348.5714285714286 309.5 Td (==, !=, <, >, <=, >=, instanceof) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 288.5 m 562.0 288.5 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 293.5 Td (7. Shifts / Additive) Tj ET
+BT /F1 8.2 Tf 216.91428571428574 293.5 Td (%left) Tj ET
+BT /F1 8.2 Tf 348.5714285714286 293.5 Td (<<, >>, >>>, +, -) Tj ET
+0.95 0.97 0.99 rg
+50.0 272.5 512.0 16 re f
+0.85 0.88 0.92 RG 0.5 w
+50.0 272.5 m 562.0 272.5 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 277.5 Td (8. Multiplicative) Tj ET
+BT /F1 8.2 Tf 216.91428571428574 277.5 Td (%left) Tj ET
+BT /F1 8.2 Tf 348.5714285714286 277.5 Td (*, /, %) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 256.5 m 562.0 256.5 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 261.5 Td (9. Unary / Prefix) Tj ET
+BT /F1 8.2 Tf 216.91428571428574 261.5 Td (%right) Tj ET
+BT /F1 8.2 Tf 348.5714285714286 261.5 Td (++, --, +, -, ~, !, \(cast\)) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 231.5 3 14 re f
+BT /F2 12.5 Tf 58.0 233.5 Td (4. Bison Conflict Profile \(285 S/R, 34 R/R\)) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 228.5 m 562.0 228.5 l S
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 9.2 Tf 50.0 205.5 Td (Bison reports 285 shift/reduce and 34 reduce/reduce conflicts in java_parser.output. These arise from) Tj ET
+BT /F1 9.2 Tf 50.0 192.5 Td (contextual keywords \(record, when, yield, var\) that can serve as either keywords or identifiers, and Java's) Tj ET
+BT /F1 9.2 Tf 50.0 179.5 Td (statement grammar. Bison's default shift-over-reduce resolution perfectly matches Java's longest-match) Tj ET
+BT /F1 9.2 Tf 50.0 166.5 Td (semantics.) Tj ET
+Q
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+8 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000281 00000 n 
+0000006131 00000 n 
+0000006201 00000 n 
+0000006276 00000 n 
+0000006344 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+6417
+%%EOF

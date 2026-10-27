@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.git/
+.gitignore
+.env
+venv/
+env/
+.agents/
+.gemini/
+*.log
+javacheck.exe
+javacheck.dll
+*.class
+temp_test*.java
+test_*.exe

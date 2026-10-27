@@ -1,0 +1,242 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612.0 792.0] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R /F3 7 0 R /F4 8 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 6546 >>
+stream
+q
+0.7 0.7 0.75 RG 0.5 w
+50.0 42.0 m 562.0 42.0 l S
+0.35 0.4 0.45 rg
+BT /F1 8 Tf 50.0 30.0 Td (Java 21 Syntax Checker | GNU Flex & Bison LALR\(1\)) Tj ET
+BT /F2 8 Tf 502.0 30.0 Td (Page 1) Tj ET
+Q
+q
+0.05 0.18 0.35 rg
+50.0 663.0 512.0 75 re f
+0.1 0.6 0.85 rg
+50.0 663.0 6 75 re f
+0.85 0.92 1.0 rg
+BT /F2 9 Tf 66.0 720.0 Td (COURSE-BASED PROJECT DOCUMENTATION | DOC-16) Tj ET
+1 1 1 rg
+BT /F2 16 Tf 66.0 698.0 Td (Test Cases & Final Verified Results) Tj ET
+0.8 0.85 0.9 rg
+BT /F1 9.5 Tf 66.0 680.0 Td (Breakdown of 59 Parser Tests & 14 GUI Integration Tests \(100% Pass Rate\)) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 628.0 3 14 re f
+BT /F2 12.5 Tf 58.0 630.0 Td (1. Final Verified Test Summary) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 625.0 m 562.0 625.0 l S
+Q
+q
+0.93 0.98 0.95 rg
+50.0 565.0 512.0 50.0 re f
+0.15 0.65 0.35 rg
+50.0 565.0 4 50.0 re f
+0.08 0.45 0.2 rg
+BT /F2 8.5 Tf 62.0 601.0 Td (VERIFIED TEST RESULTS SUMMARY) Tj ET
+0.15 0.2 0.25 rg
+BT /F1 8.8 Tf 62.0 589.0 Td (PARSER TEST SUITE: 59 / 59 PASSED \(100.0%\)
+GUI INTEGRATION SUITE: 14 / 14 PASSED \(100.0%\)
+TOTAL AUTOMATED) Tj ET
+BT /F1 8.8 Tf 62.0 577.0 Td (TESTS: 73 / 73 PASSED \(100.0%\)) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 542.0 3 14 re f
+BT /F2 12.5 Tf 58.0 544.0 Td (2. Breakdown of 59 Parser Tests by Category) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 539.0 m 562.0 539.0 l S
+Q
+q
+0.08 0.22 0.4 rg
+50.0 509.0 512.0 20 re f
+1 1 1 rg
+BT /F2 8.5 Tf 56.0 516.0 Td (Test Category) Tj ET
+BT /F2 8.5 Tf 208.21621621621622 516.0 Td (Test Count) Tj ET
+BT /F2 8.5 Tf 291.2432432432432 516.0 Td (Pass Rate) Tj ET
+BT /F2 8.5 Tf 388.10810810810807 516.0 Td (What the Category Proves) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 493.0 m 562.0 493.0 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 498.0 Td (Original Regression) Tj ET
+BT /F1 8.2 Tf 208.21621621621622 498.0 Td (23 Tests) Tj ET
+BT /F1 8.2 Tf 291.2432432432432 498.0 Td (23 / 23 \(100%\)) Tj ET
+BT /F1 8.2 Tf 388.10810810810807 498.0 Td (Core Java 8?17 classes, methods,...) Tj ET
+0.95 0.97 0.99 rg
+50.0 477.0 512.0 16 re f
+0.85 0.88 0.92 RG 0.5 w
+50.0 477.0 m 562.0 477.0 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 482.0 Td (Java 21 Feature Tests) Tj ET
+BT /F1 8.2 Tf 208.21621621621622 482.0 Td (12 Tests) Tj ET
+BT /F1 8.2 Tf 291.2432432432432 482.0 Td (12 / 12 \(100%\)) Tj ET
+BT /F1 8.2 Tf 388.10810810810807 482.0 Td (Record patterns, switch patterns...) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 461.0 m 562.0 461.0 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 466.0 Td (Phase 9 Completeness) Tj ET
+BT /F1 8.2 Tf 208.21621621621622 466.0 Td (8 Tests) Tj ET
+BT /F1 8.2 Tf 291.2432432432432 466.0 Td (8 / 8 \(100%\)) Tj ET
+BT /F1 8.2 Tf 388.10810810810807 466.0 Td (>>>= assignment, module-info, mu...) Tj ET
+0.95 0.97 0.99 rg
+50.0 445.0 512.0 16 re f
+0.85 0.88 0.92 RG 0.5 w
+50.0 445.0 m 562.0 445.0 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 450.0 Td (Error Accuracy \(Phase 10\)) Tj ET
+BT /F1 8.2 Tf 208.21621621621622 450.0 Td (13 Tests) Tj ET
+BT /F1 8.2 Tf 291.2432432432432 450.0 Td (13 / 13 \(100%\)) Tj ET
+BT /F1 8.2 Tf 388.10810810810807 450.0 Td (Exact line accuracy after blanks...) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 429.0 m 562.0 429.0 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 434.0 Td (Stress & Boundaries) Tj ET
+BT /F1 8.2 Tf 208.21621621621622 434.0 Td (3 Tests) Tj ET
+BT /F1 8.2 Tf 291.2432432432432 434.0 Td (3 / 3 \(100%\)) Tj ET
+BT /F1 8.2 Tf 388.10810810810807 434.0 Td (Deep nested record deconstructio...) Tj ET
+0.95 0.97 0.99 rg
+50.0 413.0 512.0 16 re f
+0.85 0.88 0.92 RG 0.5 w
+50.0 413.0 m 562.0 413.0 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 418.0 Td (Total Parser Tests) Tj ET
+BT /F1 8.2 Tf 208.21621621621622 418.0 Td (59 Tests) Tj ET
+BT /F1 8.2 Tf 291.2432432432432 418.0 Td (59 / 59 \(100%\)) Tj ET
+BT /F1 8.2 Tf 388.10810810810807 418.0 Td (Complete front-end grammar and e...) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 388.0 3 14 re f
+BT /F2 12.5 Tf 58.0 390.0 Td (3. Breakdown of 14 GUI Integration Tests) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 385.0 m 562.0 385.0 l S
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 9.2 Tf 50.0 362.0 Td (All 14 integration tests in tests/test_gui_backend.py passed with 100% success:) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 341.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 341.5 Td (1. test_window_title_and_structure \(Window and subwidgets\)) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 325.0 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 325.0 Td (2. test_backend_initialization \(ctypes CDLL handle\)) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 308.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 308.5 Td (3. test_valid_simple_class \(In-memory simple valid check\)) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 292.0 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 292.0 Td (4. test_valid_java21_features \(In-memory Java 21 records & switch\)) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 275.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 275.5 Td (5. test_invalid_line_1 \(Error on line 1 extraction\)) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 259.0 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 259.0 Td (6. test_invalid_middle_line \(Error on line 4 in method body\)) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 242.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 242.5 Td (7. test_invalid_after_comments_and_blank_lines \(Line 6 error\)) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 226.0 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 226.0 Td (8. test_invalid_eof \(Missing closing brace at EOF\)) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 209.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 209.5 Td (9. test_gui_file_load_and_line_numbers \(File load & gutter sync\)) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 193.0 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 193.0 Td (10. test_gui_editor_editing_and_rechecking \(Invalid -> Fix -> Valid workflow\)) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 176.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 176.5 Td (11. test_gui_error_highlight_and_clearing \(Tag add and clear on edit\)) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 160.0 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 160.0 Td (12. test_gui_long_file_scrolling_and_line_numbers \(100+ line gutter alignment\)) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 143.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 143.5 Td (13. test_command_palette_filtering \(Fuzzy search & execution\)) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 127.0 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 127.0 Td (14. test_theme_switching \(Dark/light theme toggle\)) Tj ET
+Q
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+8 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000281 00000 n 
+0000006879 00000 n 
+0000006949 00000 n 
+0000007024 00000 n 
+0000007092 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+7165
+%%EOF

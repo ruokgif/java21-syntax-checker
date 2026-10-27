@@ -1,0 +1,240 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612.0 792.0] /Contents 4 0 R /Resources << /Font << /F1 7 0 R /F2 8 0 R /F3 9 0 R /F4 10 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 5053 >>
+stream
+q
+0.7 0.7 0.75 RG 0.5 w
+50.0 42.0 m 562.0 42.0 l S
+0.35 0.4 0.45 rg
+BT /F1 8 Tf 50.0 30.0 Td (Java 21 Syntax Checker | GNU Flex & Bison LALR\(1\)) Tj ET
+BT /F2 8 Tf 502.0 30.0 Td (Page 1) Tj ET
+Q
+q
+0.05 0.18 0.35 rg
+50.0 663.0 512.0 75 re f
+0.1 0.6 0.85 rg
+50.0 663.0 6 75 re f
+0.85 0.92 1.0 rg
+BT /F2 9 Tf 66.0 720.0 Td (COURSE-BASED PROJECT DOCUMENTATION | DOC-01) Tj ET
+1 1 1 rg
+BT /F2 16 Tf 66.0 698.0 Td (Project Overview & Foundations) Tj ET
+0.8 0.85 0.9 rg
+BT /F1 9.5 Tf 66.0 680.0 Td (System Overview, Context-Free Grammar, & Scope Boundaries) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 628.0 3 14 re f
+BT /F2 12.5 Tf 58.0 630.0 Td (1. Project Title & Designation) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 625.0 m 562.0 625.0 l S
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 9.2 Tf 50.0 602.0 Td (Official Title: Java 21 Syntax Checker using GNU Flex, GNU Bison LALR\(1\), and Python Tkinter.) Tj ET
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 9.2 Tf 50.0 581.0 Td (Academic Track: Course-Based Project \(CBP\) / Compiler Design & Formal Languages.) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 558.0 3 14 re f
+BT /F2 12.5 Tf 58.0 560.0 Td (2. Executive Abstract) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 555.0 m 562.0 555.0 l S
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 9.2 Tf 50.0 532.0 Td (Modern programming languages evolve continuously, adding high-level syntactic sugar and pattern-matching) Tj ET
+BT /F1 9.2 Tf 50.0 519.0 Td (constructs. The Java 21 Syntax Checker is a high-precision, front-end compiler tool designed to formally) Tj ET
+BT /F1 9.2 Tf 50.0 506.0 Td (validate the grammatical correctness of Java 21 \(LTS\) source files. Built using GNU Flex 2.6.x \(lexical DFA) Tj ET
+BT /F1 9.2 Tf 50.0 493.0 Td (scanner\) and GNU Bison 3.8.x \(LALR\(1\) shift-reduce parser\), the engine compiles to a native Windows DLL) Tj ET
+BT /F1 9.2 Tf 50.0 480.0 Td (\(javacheck.dll\) and standalone CLI binary \(javacheck.exe\). An interactive Python 3.10+ / Tkinter desktop) Tj ET
+BT /F1 9.2 Tf 50.0 467.0 Td (interface with an in-memory ctypes foreign function interface \(FFI\) enables real-time verification,) Tj ET
+BT /F1 9.2 Tf 50.0 454.0 Td (line-number gutter synchronization, Command Palette quick actions, and instant red error-line highlighting.) Tj ET
+BT /F1 9.2 Tf 50.0 441.0 Td (The tool achieved a 100% pass rate across 59 parser tests and 14 GUI tests.) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 418.0 3 14 re f
+BT /F2 12.5 Tf 58.0 420.0 Td (3. What the Project Does) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 415.0 m 562.0 415.0 l S
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 392.5 Td ([1]) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 392.5 Td (Tokenizes Java 21 source code into lexical tokens with line/column coordinates via Flex.) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 376.0 Td ([2]) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 376.0 Td (Parses the token stream against a Java 21 Context-Free Grammar using Bison LALR\(1\).) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 359.5 Td ([3]) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 359.5 Td (Reports whether the source code conforms to the formal Java 21 specification.) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 343.0 Td ([4]) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 343.0 Td (Pinpoints the exact source line where the first syntax error occurs.) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 326.5 Td ([5]) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 326.5 Td (Presents a responsive, dark-themed VS Code-style graphical developer interface.) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 307.5 3 14 re f
+BT /F2 12.5 Tf 58.0 309.5 Td (4. Why the Project Was Developed \(Academic Motivation\)) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 304.5 m 562.0 304.5 l S
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 9.2 Tf 50.0 281.5 Td (Most educational compilers and literature examples stop at Java 1.4 or Java 7, omitting modern language) Tj ET
+BT /F1 9.2 Tf 50.0 268.5 Td (structures. Java 21 LTS introduced groundbreaking features?such as Record Patterns, Pattern Matching for) Tj ET
+BT /F1 9.2 Tf 50.0 255.5 Td (Switch, Switch Guards \(when clauses\), Sealed Classes, and Text Blocks. Implementing these modern constructs) Tj ET
+BT /F1 9.2 Tf 50.0 242.5 Td (in a deterministic LALR\(1\) framework demonstrates advanced grammar disambiguation, precedence engineering,) Tj ET
+BT /F1 9.2 Tf 50.0 229.5 Td (and native systems interoperability.) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 206.5 3 14 re f
+BT /F2 12.5 Tf 58.0 208.5 Td (5. Project Boundary: Syntax Checker vs. Full Compiler) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 203.5 m 562.0 203.5 l S
+Q
+q
+1.0 0.96 0.93 rg
+50.0 131.5 512.0 62.0 re f
+0.85 0.4 0.1 rg
+50.0 131.5 4 62.0 re f
+0.6 0.25 0.05 rg
+BT /F2 8.5 Tf 62.0 179.5 Td (SCOPE & THEORETICAL BOUNDARY) Tj ET
+0.15 0.2 0.25 rg
+BT /F1 8.8 Tf 62.0 167.5 Td (CRITICAL DISTINCTION: This project is strictly a FRONT-END SYNTAX CHECKER and PARSER. It does NOT perform) Tj ET
+BT /F1 8.8 Tf 62.0 155.5 Td (semantic analysis \(type checking, symbol resolution, undeclared variable detection\), does NOT generate JVM) Tj ET
+BT /F1 8.8 Tf 62.0 143.5 Td (bytecode \(.class files\), and does NOT execute or debug Java programs.) Tj ET
+Q
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612.0 792.0] /Contents 6 0 R /Resources << /Font << /F1 7 0 R /F2 8 0 R /F3 9 0 R /F4 10 0 R >> >> >>
+endobj
+6 0 obj
+<< /Length 2411 >>
+stream
+q
+0.1 0.2 0.35 rg
+BT /F2 8.5 Tf 50.0 756.0 Td (DOC-01: Project Overview & Foundations) Tj ET
+0.7 0.7 0.75 RG 0.5 w
+50.0 750.0 m 562.0 750.0 l S
+Q
+q
+0.7 0.7 0.75 RG 0.5 w
+50.0 42.0 m 562.0 42.0 l S
+0.35 0.4 0.45 rg
+BT /F1 8 Tf 50.0 30.0 Td (Java 21 Syntax Checker | GNU Flex & Bison LALR\(1\)) Tj ET
+BT /F2 8 Tf 502.0 30.0 Td (Page 2) Tj ET
+Q
+q
+0.08 0.22 0.4 rg
+50.0 708.0 512.0 20 re f
+1 1 1 rg
+BT /F2 8.5 Tf 56.0 715.0 Td (Compiler Phase) Tj ET
+BT /F2 8.5 Tf 216.91428571428574 715.0 Td (Status in This Project) Tj ET
+BT /F2 8.5 Tf 348.5714285714286 715.0 Td (Implementation Mechanism) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 692.0 m 562.0 692.0 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 697.0 Td (1. Lexical Analysis) Tj ET
+BT /F1 8.2 Tf 216.91428571428574 697.0 Td (Fully Implemented \(100%\)) Tj ET
+BT /F1 8.2 Tf 348.5714285714286 697.0 Td (GNU Flex 2.6.x \(DFA, YY_USER_ACTION\)) Tj ET
+0.95 0.97 0.99 rg
+50.0 676.0 512.0 16 re f
+0.85 0.88 0.92 RG 0.5 w
+50.0 676.0 m 562.0 676.0 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 681.0 Td (2. Syntax Analysis) Tj ET
+BT /F1 8.2 Tf 216.91428571428574 681.0 Td (Fully Implemented \(100%\)) Tj ET
+BT /F1 8.2 Tf 348.5714285714286 681.0 Td (GNU Bison 3.8.x \(LALR\(1\) Shift-Reduce\)) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 660.0 m 562.0 660.0 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 665.0 Td (3. Semantic Analysis) Tj ET
+BT /F1 8.2 Tf 216.91428571428574 665.0 Td (Out of Scope) Tj ET
+BT /F1 8.2 Tf 348.5714285714286 665.0 Td (Not implemented \(No symbol tables/types\)) Tj ET
+0.95 0.97 0.99 rg
+50.0 644.0 512.0 16 re f
+0.85 0.88 0.92 RG 0.5 w
+50.0 644.0 m 562.0 644.0 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 649.0 Td (4. Intermediate Code Gen) Tj ET
+BT /F1 8.2 Tf 216.91428571428574 649.0 Td (Out of Scope) Tj ET
+BT /F1 8.2 Tf 348.5714285714286 649.0 Td (Not implemented \(No TAC or AST\)) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 628.0 m 562.0 628.0 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 633.0 Td (5. Code Optimization) Tj ET
+BT /F1 8.2 Tf 216.91428571428574 633.0 Td (Out of Scope) Tj ET
+BT /F1 8.2 Tf 348.5714285714286 633.0 Td (Not implemented) Tj ET
+0.95 0.97 0.99 rg
+50.0 612.0 512.0 16 re f
+0.85 0.88 0.92 RG 0.5 w
+50.0 612.0 m 562.0 612.0 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 617.0 Td (6. Target Code Generation) Tj ET
+BT /F1 8.2 Tf 216.91428571428574 617.0 Td (Out of Scope) Tj ET
+BT /F1 8.2 Tf 348.5714285714286 617.0 Td (Not implemented \(No .class bytecode\)) Tj ET
+Q
+endstream
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+8 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+10 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold >>
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000127 00000 n 
+0000000288 00000 n 
+0000005393 00000 n 
+0000005554 00000 n 
+0000008017 00000 n 
+0000008087 00000 n 
+0000008162 00000 n 
+0000008230 00000 n 
+trailer
+<< /Size 11 /Root 1 0 R >>
+startxref
+8304
+%%EOF

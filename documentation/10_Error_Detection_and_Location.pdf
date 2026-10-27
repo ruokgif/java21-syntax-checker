@@ -1,0 +1,182 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612.0 792.0] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R /F3 7 0 R /F4 8 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 4863 >>
+stream
+q
+0.7 0.7 0.75 RG 0.5 w
+50.0 42.0 m 562.0 42.0 l S
+0.35 0.4 0.45 rg
+BT /F1 8 Tf 50.0 30.0 Td (Java 21 Syntax Checker | GNU Flex & Bison LALR\(1\)) Tj ET
+BT /F2 8 Tf 502.0 30.0 Td (Page 1) Tj ET
+Q
+q
+0.05 0.18 0.35 rg
+50.0 663.0 512.0 75 re f
+0.1 0.6 0.85 rg
+50.0 663.0 6 75 re f
+0.85 0.92 1.0 rg
+BT /F2 9 Tf 66.0 720.0 Td (COURSE-BASED PROJECT DOCUMENTATION | DOC-10) Tj ET
+1 1 1 rg
+BT /F2 16 Tf 66.0 698.0 Td (Syntax Error Detection & Location) Tj ET
+0.8 0.85 0.9 rg
+BT /F1 9.5 Tf 66.0 680.0 Td (Location Precision, yylloc, Lookahead, & Formatting Scenarios) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 628.0 3 14 re f
+BT /F2 12.5 Tf 58.0 630.0 Td (1. Syntax Error Detection Mechanism) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 625.0 m 562.0 625.0 l S
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 9.2 Tf 50.0 602.0 Td (A syntax error occurs when the next lookahead token cannot legally follow the grammar path for the current) Tj ET
+BT /F1 9.2 Tf 50.0 589.0 Td (state. Bison halts normal reduction, triggers the callback void yyerror\(const char *s\), and sets) Tj ET
+BT /F1 9.2 Tf 50.0 576.0 Td (syntax_error_occurred = 1.) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 553.0 3 14 re f
+BT /F2 12.5 Tf 58.0 555.0 Td (2. Pinpoint Error-Line Extraction) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 550.0 m 562.0 550.0 l S
+Q
+q
+0.12 0.14 0.18 rg
+50.0 484.0 512.0 56.0 re f
+0.25 0.3 0.38 RG 0.5 w
+50.0 484.0 512.0 56.0 re S
+0.85 0.9 0.95 rg
+BT /F3 7.5 Tf 60.0 530.0 Td (void yyerror\(const char *s\) {) Tj ET
+BT /F3 7.5 Tf 60.0 519.5 Td (    syntax_error_occurred = 1;) Tj ET
+BT /F3 7.5 Tf 60.0 509.0 Td (    error_line = yylloc.first_line ? yylloc.first_line : yylineno;) Tj ET
+BT /F3 7.5 Tf 60.0 498.5 Td (}) Tj ET
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 9.2 Tf 50.0 463.0 Td (Because YY_USER_ACTION in Flex continuously updates yylloc.first_line with the exact line number of every) Tj ET
+BT /F1 9.2 Tf 50.0 450.0 Td (token, yyerror\(\) captures the exact 1-indexed source line without drifting.) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 427.0 3 14 re f
+BT /F2 12.5 Tf 58.0 429.0 Td (3. Standardized Output Format) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 424.0 m 562.0 424.0 l S
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 401.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 401.5 Td (Success: SUCCESS: Valid Java Syntax \(return code 0\)) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 385.0 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 385.0 Td (Syntax Error: ERROR: Line <N>: Syntax error near '<TOKEN>' \(return code 1\)) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 368.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 368.5 Td (File I/O Error: ERROR: Could not open file '<PATH>' \(return code 2\)) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 349.5 3 14 re f
+BT /F2 12.5 Tf 58.0 351.5 Td (4. Error Accuracy Verification Across Edge Cases) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 346.5 m 562.0 346.5 l S
+Q
+q
+0.08 0.22 0.4 rg
+50.0 316.5 512.0 20 re f
+1 1 1 rg
+BT /F2 8.5 Tf 56.0 323.5 Td (Scenario) Tj ET
+BT /F2 8.5 Tf 198.22222222222223 323.5 Td (Code Sample) Tj ET
+BT /F2 8.5 Tf 411.55555555555554 323.5 Td (Expected & Verified Line) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 300.5 m 562.0 300.5 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 305.5 Td (Line 1 Error) Tj ET
+BT /F1 8.2 Tf 198.22222222222223 305.5 Td (class { }) Tj ET
+BT /F1 8.2 Tf 411.55555555555554 305.5 Td (Line 1: Syntax error near '{') Tj ET
+0.95 0.97 0.99 rg
+50.0 284.5 512.0 16 re f
+0.85 0.88 0.92 RG 0.5 w
+50.0 284.5 m 562.0 284.5 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 289.5 Td (Line 2 Error) Tj ET
+BT /F1 8.2 Tf 198.22222222222223 289.5 Td (class T { int x = ; }) Tj ET
+BT /F1 8.2 Tf 411.55555555555554 289.5 Td (Line 2: Syntax error near ';') Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 268.5 m 562.0 268.5 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 273.5 Td (After Blank Lines) Tj ET
+BT /F1 8.2 Tf 198.22222222222223 273.5 Td (5 blank lines followed by bad token) Tj ET
+BT /F1 8.2 Tf 411.55555555555554 273.5 Td (Exact line after blanks counted) Tj ET
+0.95 0.97 0.99 rg
+50.0 252.5 512.0 16 re f
+0.85 0.88 0.92 RG 0.5 w
+50.0 252.5 m 562.0 252.5 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 257.5 Td (After Block Comments) Tj ET
+BT /F1 8.2 Tf 198.22222222222223 257.5 Td (/* multi-line comment */ on lines 1-5) Tj ET
+BT /F1 8.2 Tf 411.55555555555554 257.5 Td (Line 6 error counted correctly) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 236.5 m 562.0 236.5 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 241.5 Td (After Text Blocks) Tj ET
+BT /F1 8.2 Tf 198.22222222222223 241.5 Td (""" multi-line string """) Tj ET
+BT /F1 8.2 Tf 411.55555555555554 241.5 Td (Line after text block counte...) Tj ET
+0.95 0.97 0.99 rg
+50.0 220.5 512.0 16 re f
+0.85 0.88 0.92 RG 0.5 w
+50.0 220.5 m 562.0 220.5 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 225.5 Td (Missing Semicolon) Tj ET
+BT /F1 8.2 Tf 198.22222222222223 225.5 Td (int a = 10 
+ int b = 20;) Tj ET
+BT /F1 8.2 Tf 411.55555555555554 225.5 Td (Line 2: Syntax error near 'i...) Tj ET
+Q
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+8 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000281 00000 n 
+0000005196 00000 n 
+0000005266 00000 n 
+0000005341 00000 n 
+0000005409 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+5482
+%%EOF

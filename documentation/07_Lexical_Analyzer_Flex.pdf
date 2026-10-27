@@ -1,0 +1,161 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612.0 792.0] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R /F3 7 0 R /F4 8 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 4314 >>
+stream
+q
+0.7 0.7 0.75 RG 0.5 w
+50.0 42.0 m 562.0 42.0 l S
+0.35 0.4 0.45 rg
+BT /F1 8 Tf 50.0 30.0 Td (Java 21 Syntax Checker | GNU Flex & Bison LALR\(1\)) Tj ET
+BT /F2 8 Tf 502.0 30.0 Td (Page 1) Tj ET
+Q
+q
+0.05 0.18 0.35 rg
+50.0 663.0 512.0 75 re f
+0.1 0.6 0.85 rg
+50.0 663.0 6 75 re f
+0.85 0.92 1.0 rg
+BT /F2 9 Tf 66.0 720.0 Td (COURSE-BASED PROJECT DOCUMENTATION | DOC-07) Tj ET
+1 1 1 rg
+BT /F2 16 Tf 66.0 698.0 Td (Lexical Analyzer \(GNU Flex\)) Tj ET
+0.8 0.85 0.9 rg
+BT /F1 9.5 Tf 66.0 680.0 Td (DFA Regular Expressions, Location Tracking, & Lexer States) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 628.0 3 14 re f
+BT /F2 12.5 Tf 58.0 630.0 Td (1. Lexical Analysis Principles) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 625.0 m 562.0 625.0 l S
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 9.2 Tf 50.0 602.0 Td (Lexical analysis \(scanning\) is the first phase of a compiler. It converts a raw stream of characters into) Tj ET
+BT /F1 9.2 Tf 50.0 589.0 Td (discrete, meaningful atomic units called tokens. GNU Flex compiles high-level regular expression) Tj ET
+BT /F1 9.2 Tf 50.0 576.0 Td (specifications into a table-driven Deterministic Finite Automaton \(DFA\) executing in linear O\(n\) time.) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 553.0 3 14 re f
+BT /F2 12.5 Tf 58.0 555.0 Td (2. Scanner Specification \(lexer/java_lexer.l\)) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 550.0 m 562.0 550.0 l S
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 527.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 527.5 Td (Keywords: 50+ Java keywords \(class, interface, record, sealed, permits, when, var, yield, etc.\).) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 511.0 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 511.0 Td (Literals: Decimal, Hexadecimal \(0x...\), Binary \(0b...\), Octal, Floating-point, Char, String, Text) Tj ET
+BT /F1 9.0 Tf 76.0 498.5 Td (Blocks.) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 482.0 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 482.0 Td (Unicode Identifiers: Supports ASCII, $, _, and multi-byte UTF-8 bytes \([\\x80-\\xFF]\).) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 465.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 465.5 Td (Operators & Separators: All Java operators including >>>=, ::, ->, @, ..., etc.) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 446.5 3 14 re f
+BT /F2 12.5 Tf 58.0 448.5 Td (3. Lexer Start Conditions \(States\)) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 443.5 m 562.0 443.5 l S
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 9.2 Tf 50.0 420.5 Td (Exclusive states \(%x\) handle multi-line comments and modern text blocks:) Tj ET
+Q
+q
+0.12 0.14 0.18 rg
+50.0 272.5 512.0 140.0 re f
+0.25 0.3 0.38 RG 0.5 w
+50.0 272.5 512.0 140.0 re S
+0.85 0.9 0.95 rg
+BT /F3 7.5 Tf 60.0 402.5 Td (%x STATE_BLOCK_COMMENT) Tj ET
+BT /F3 7.5 Tf 60.0 392.0 Td (%x STATE_TEXT_BLOCK) Tj ET
+BT /F3 7.5 Tf 60.0 381.5 Td () Tj ET
+BT /F3 7.5 Tf 60.0 371.0 Td (/* Block Comment */) Tj ET
+BT /F3 7.5 Tf 60.0 360.5 Td ("/*"                       { BEGIN\(STATE_BLOCK_COMMENT\); }) Tj ET
+BT /F3 7.5 Tf 60.0 350.0 Td (<STATE_BLOCK_COMMENT>"*/"  { BEGIN\(INITIAL\); }) Tj ET
+BT /F3 7.5 Tf 60.0 339.5 Td (<STATE_BLOCK_COMMENT>\\n    { current_column = 1; }) Tj ET
+BT /F3 7.5 Tf 60.0 329.0 Td (<STATE_BLOCK_COMMENT>.     { /* ignore */ }) Tj ET
+BT /F3 7.5 Tf 60.0 318.5 Td () Tj ET
+BT /F3 7.5 Tf 60.0 308.0 Td (/* Text Block */) Tj ET
+BT /F3 7.5 Tf 60.0 297.5 Td ("\\"\\"\\""                   { BEGIN\(STATE_TEXT_BLOCK\); }) Tj ET
+BT /F3 7.5 Tf 60.0 287.0 Td (<STATE_TEXT_BLOCK>"\\"\\"\\"" { BEGIN\(INITIAL\); return TEXT_BLOCK; }) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 249.5 3 14 re f
+BT /F2 12.5 Tf 58.0 251.5 Td (4. Location Tracking via YY_USER_ACTION) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 246.5 m 562.0 246.5 l S
+Q
+q
+0.12 0.14 0.18 rg
+50.0 170.0 512.0 66.5 re f
+0.25 0.3 0.38 RG 0.5 w
+50.0 170.0 512.0 66.5 re S
+0.85 0.9 0.95 rg
+BT /F3 7.5 Tf 60.0 226.5 Td (#define YY_USER_ACTION \\) Tj ET
+BT /F3 7.5 Tf 60.0 216.0 Td (    yylloc.first_line = yylloc.last_line = yylineno; \\) Tj ET
+BT /F3 7.5 Tf 60.0 205.5 Td (    yylloc.first_column = current_column; \\) Tj ET
+BT /F3 7.5 Tf 60.0 195.0 Td (    yylloc.last_column = current_column + yyleng - 1; \\) Tj ET
+BT /F3 7.5 Tf 60.0 184.5 Td (    current_column += yyleng;) Tj ET
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 9.2 Tf 50.0 149.0 Td (This hook guarantees that every token delivered to Bison carries exact line and column coordinates.) Tj ET
+Q
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+8 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000281 00000 n 
+0000004647 00000 n 
+0000004717 00000 n 
+0000004792 00000 n 
+0000004860 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+4933
+%%EOF

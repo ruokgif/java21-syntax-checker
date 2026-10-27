@@ -1,0 +1,201 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612.0 792.0] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R /F3 7 0 R /F4 8 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 5625 >>
+stream
+q
+0.7 0.7 0.75 RG 0.5 w
+50.0 42.0 m 562.0 42.0 l S
+0.35 0.4 0.45 rg
+BT /F1 8 Tf 50.0 30.0 Td (Java 21 Syntax Checker | GNU Flex & Bison LALR\(1\)) Tj ET
+BT /F2 8 Tf 502.0 30.0 Td (Page 1) Tj ET
+Q
+q
+0.05 0.18 0.35 rg
+50.0 663.0 512.0 75 re f
+0.1 0.6 0.85 rg
+50.0 663.0 6 75 re f
+0.85 0.92 1.0 rg
+BT /F2 9 Tf 66.0 720.0 Td (COURSE-BASED PROJECT DOCUMENTATION | DOC-02) Tj ET
+1 1 1 rg
+BT /F2 16 Tf 66.0 698.0 Td (Objectives, Scope & Requirements) Tj ET
+0.8 0.85 0.9 rg
+BT /F1 9.5 Tf 66.0 680.0 Td (Problem Formulation, Motivations, & Functional Boundaries) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 628.0 3 14 re f
+BT /F2 12.5 Tf 58.0 630.0 Td (1. Problem Statement) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 625.0 m 562.0 625.0 l S
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 9.2 Tf 50.0 602.0 Td (Java 21 expanded the grammar with intricate constructs such as record patterns, deconstruction, and) Tj ET
+BT /F1 9.2 Tf 50.0 589.0 Td (contextual guards. Adapting these constructs into a single-token lookahead LALR\(1\) grammar introduces) Tj ET
+BT /F1 9.2 Tf 50.0 576.0 Td (complex shift/reduce and reduce/reduce ambiguities. There is a need for a formally verified, deterministic) Tj ET
+BT /F1 9.2 Tf 50.0 563.0 Td (LALR\(1\) Java 21 syntax analyzer coupled with a modern graphical interface capable of pinpoint error-line) Tj ET
+BT /F1 9.2 Tf 50.0 550.0 Td (highlighting.) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 527.0 3 14 re f
+BT /F2 12.5 Tf 58.0 529.0 Td (2. Project Motivation) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 524.0 m 562.0 524.0 l S
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 501.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 501.5 Td (Apply formal Language Theory \(DFAs, CFGs, LALR\(1\) tables\) to modern Java 21 LTS syntax.) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 485.0 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 485.0 Td (Solve classic compiler conflicts: dangling-else, cast expressions, ragged arrays, and switch guards.) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 468.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 468.5 Td (Build a zero-overhead native C engine communicating with Python via in-memory ctypes FFI.) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 452.0 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 452.0 Td (Deliver a polished, dark-themed VS Code-style developer desktop environment.) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 433.0 3 14 re f
+BT /F2 12.5 Tf 58.0 435.0 Td (3. Core Project Objectives) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 430.0 m 562.0 430.0 l S
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 407.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 407.5 Td (Objective 1: Construct a complete GNU Bison LALR\(1\) grammar for Java 21 \(LTS\).) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 391.0 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 391.0 Td (Objective 2: Build a fast GNU Flex lexical scanner with line and column tracking.) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 374.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 374.5 Td (Objective 3: Provide exact, drift-free error line reporting across all formatting scenarios.) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 358.0 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 358.0 Td (Objective 4: Export a C shared library \(javacheck.dll\) and standalone CLI \(javacheck.exe\).) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 341.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 341.5 Td (Objective 5: Develop a Python Tkinter GUI with Command Palette and error highlighting.) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 325.0 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 325.0 Td (Objective 6: Validate 100% test passing rate across 59 parser tests and 14 GUI tests.) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 306.0 3 14 re f
+BT /F2 12.5 Tf 58.0 308.0 Td (4. Supported vs. Non-Supported Functionality) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 303.0 m 562.0 303.0 l S
+Q
+q
+0.08 0.22 0.4 rg
+50.0 273.0 512.0 20 re f
+1 1 1 rg
+BT /F2 8.5 Tf 56.0 280.0 Td (Functional Domain) Tj ET
+BT /F2 8.5 Tf 187.65714285714287 280.0 Td (Supported in Project) Tj ET
+BT /F2 8.5 Tf 377.8285714285714 280.0 Td (Non-Supported / Excluded) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 257.0 m 562.0 257.0 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 262.0 Td (Lexical Tokens) Tj ET
+BT /F1 8.2 Tf 187.65714285714287 262.0 Td (Keywords, Literals, Comments, Text ...) Tj ET
+BT /F1 8.2 Tf 377.8285714285714 262.0 Td (Preprocessor macros \(Java has none\)) Tj ET
+0.95 0.97 0.99 rg
+50.0 241.0 512.0 16 re f
+0.85 0.88 0.92 RG 0.5 w
+50.0 241.0 m 562.0 241.0 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 246.0 Td (Grammar Syntax) Tj ET
+BT /F1 8.2 Tf 187.65714285714287 246.0 Td (Java 21 LTS Finalized Standard) Tj ET
+BT /F1 8.2 Tf 377.8285714285714 246.0 Td (Experimental preview syntax \(JEP 430\)) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 225.0 m 562.0 225.0 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 230.0 Td (Error Detection) Tj ET
+BT /F1 8.2 Tf 187.65714285714287 230.0 Td (First syntax error line & token near) Tj ET
+BT /F1 8.2 Tf 377.8285714285714 230.0 Td (Multi-error speculative recovery ca...) Tj ET
+0.95 0.97 0.99 rg
+50.0 209.0 512.0 16 re f
+0.85 0.88 0.92 RG 0.5 w
+50.0 209.0 m 562.0 209.0 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 214.0 Td (Semantics) Tj ET
+BT /F1 8.2 Tf 187.65714285714287 214.0 Td (Grammar rule conformance) Tj ET
+BT /F1 8.2 Tf 377.8285714285714 214.0 Td (Type checking, symbol scope resolution) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 193.0 m 562.0 193.0 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 198.0 Td (Execution) Tj ET
+BT /F1 8.2 Tf 187.65714285714287 198.0 Td (Syntax validation status report) Tj ET
+BT /F1 8.2 Tf 377.8285714285714 198.0 Td (Bytecode generation, JVM execution) Tj ET
+Q
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+8 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000281 00000 n 
+0000005958 00000 n 
+0000006028 00000 n 
+0000006103 00000 n 
+0000006171 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+6244
+%%EOF

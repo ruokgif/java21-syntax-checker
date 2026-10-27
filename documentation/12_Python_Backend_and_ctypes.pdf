@@ -1,0 +1,131 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612.0 792.0] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R /F3 7 0 R /F4 8 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 3537 >>
+stream
+q
+0.7 0.7 0.75 RG 0.5 w
+50.0 42.0 m 562.0 42.0 l S
+0.35 0.4 0.45 rg
+BT /F1 8 Tf 50.0 30.0 Td (Java 21 Syntax Checker | GNU Flex & Bison LALR\(1\)) Tj ET
+BT /F2 8 Tf 502.0 30.0 Td (Page 1) Tj ET
+Q
+q
+0.05 0.18 0.35 rg
+50.0 663.0 512.0 75 re f
+0.1 0.6 0.85 rg
+50.0 663.0 6 75 re f
+0.85 0.92 1.0 rg
+BT /F2 9 Tf 66.0 720.0 Td (COURSE-BASED PROJECT DOCUMENTATION | DOC-12) Tj ET
+1 1 1 rg
+BT /F2 16 Tf 66.0 698.0 Td (Python Backend & ctypes FFI) Tj ET
+0.8 0.85 0.9 rg
+BT /F1 9.5 Tf 66.0 680.0 Td (Foreign Function Interface, In-Memory Invocation, & Fallback) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 628.0 3 14 re f
+BT /F2 12.5 Tf 58.0 630.0 Td (1. Foreign Function Interface \(ctypes\)) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 625.0 m 562.0 625.0 l S
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 9.2 Tf 50.0 602.0 Td (Python's standard ctypes module allows calling functions in native DLLs directly within the Python process) Tj ET
+BT /F1 9.2 Tf 50.0 589.0 Td (memory space. This eliminates the operating system overhead of repeatedly spawning subprocesses.) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 566.0 3 14 re f
+BT /F2 12.5 Tf 58.0 568.0 Td (2. Backend Initialization \(ParserBackend\)) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 563.0 m 562.0 563.0 l S
+Q
+q
+0.12 0.14 0.18 rg
+50.0 360.5 512.0 192.5 re f
+0.25 0.3 0.38 RG 0.5 w
+50.0 360.5 512.0 192.5 re S
+0.85 0.9 0.95 rg
+BT /F3 7.5 Tf 60.0 543.0 Td (import ctypes) Tj ET
+BT /F3 7.5 Tf 60.0 532.5 Td () Tj ET
+BT /F3 7.5 Tf 60.0 522.0 Td (class ParserBackend:) Tj ET
+BT /F3 7.5 Tf 60.0 511.5 Td (    def __init__\(self\):) Tj ET
+BT /F3 7.5 Tf 60.0 501.0 Td (        self.use_dll = False) Tj ET
+BT /F3 7.5 Tf 60.0 490.5 Td (        if os.path.exists\(DLL_PATH\):) Tj ET
+BT /F3 7.5 Tf 60.0 480.0 Td (            try:) Tj ET
+BT /F3 7.5 Tf 60.0 469.5 Td (                self.dll = ctypes.CDLL\(DLL_PATH\)) Tj ET
+BT /F3 7.5 Tf 60.0 459.0 Td (                self.dll.check_syntax.argtypes = [) Tj ET
+BT /F3 7.5 Tf 60.0 448.5 Td (                    ctypes.c_char_p,   # filepath \(UTF-8 bytes\)) Tj ET
+BT /F3 7.5 Tf 60.0 438.0 Td (                    ctypes.c_char_p,   # output message buffer) Tj ET
+BT /F3 7.5 Tf 60.0 427.5 Td (                    ctypes.c_int       # buffer length) Tj ET
+BT /F3 7.5 Tf 60.0 417.0 Td (                ]) Tj ET
+BT /F3 7.5 Tf 60.0 406.5 Td (                self.dll.check_syntax.restype = ctypes.c_int) Tj ET
+BT /F3 7.5 Tf 60.0 396.0 Td (                self.use_dll = True) Tj ET
+BT /F3 7.5 Tf 60.0 385.5 Td (            except Exception:) Tj ET
+BT /F3 7.5 Tf 60.0 375.0 Td (                self.use_dll = False) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 337.5 3 14 re f
+BT /F2 12.5 Tf 58.0 339.5 Td (3. In-Memory Code Checking \(check_code_string\)) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 334.5 m 562.0 334.5 l S
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 9.2 Tf 50.0 311.5 Td (To check code typed live into the editor, check_code_string\(\) safely writes the text buffer to a temporary) Tj ET
+BT /F1 9.2 Tf 50.0 298.5 Td (file using Python's tempfile module, invokes check_file\(\), and deletes the temporary file in a finally) Tj ET
+BT /F1 9.2 Tf 50.0 285.5 Td (block.) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 262.5 3 14 re f
+BT /F2 12.5 Tf 58.0 264.5 Td (4. Subprocess Fallback) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 259.5 m 562.0 259.5 l S
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 9.2 Tf 50.0 236.5 Td (If javacheck.dll cannot be loaded \(due to permissions or environment constraints\), ParserBackend) Tj ET
+BT /F1 9.2 Tf 50.0 223.5 Td (automatically falls back to invoking javacheck.exe via subprocess.run\(\), ensuring continuous operation.) Tj ET
+Q
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+8 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000281 00000 n 
+0000003870 00000 n 
+0000003940 00000 n 
+0000004015 00000 n 
+0000004083 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+4156
+%%EOF

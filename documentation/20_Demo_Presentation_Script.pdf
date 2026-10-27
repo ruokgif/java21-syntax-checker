@@ -1,0 +1,205 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612.0 792.0] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R /F3 7 0 R /F4 8 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 6120 >>
+stream
+q
+0.7 0.7 0.75 RG 0.5 w
+50.0 42.0 m 562.0 42.0 l S
+0.35 0.4 0.45 rg
+BT /F1 8 Tf 50.0 30.0 Td (Java 21 Syntax Checker | GNU Flex & Bison LALR\(1\)) Tj ET
+BT /F2 8 Tf 502.0 30.0 Td (Page 1) Tj ET
+Q
+q
+0.05 0.18 0.35 rg
+50.0 663.0 512.0 75 re f
+0.1 0.6 0.85 rg
+50.0 663.0 6 75 re f
+0.85 0.92 1.0 rg
+BT /F2 9 Tf 66.0 720.0 Td (COURSE-BASED PROJECT DOCUMENTATION | DOC-20) Tj ET
+1 1 1 rg
+BT /F2 16 Tf 66.0 698.0 Td (Demo Presentation & Viva Script) Tj ET
+0.8 0.85 0.9 rg
+BT /F1 9.5 Tf 66.0 680.0 Td (Practical Verbal Presentation Script, Live Demo Guide, & Defense Flow) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 628.0 3 14 re f
+BT /F2 12.5 Tf 58.0 630.0 Td (1. 30-Second Elevator Pitch) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 625.0 m 562.0 625.0 l S
+Q
+q
+0.94 0.97 1.0 rg
+50.0 529.0 512.0 86.0 re f
+0.1 0.5 0.8 rg
+50.0 529.0 4 86.0 re f
+0.05 0.3 0.55 rg
+BT /F2 8.5 Tf 62.0 601.0 Td (30-SECOND OPENING PITCH) Tj ET
+0.15 0.2 0.25 rg
+BT /F1 8.8 Tf 62.0 589.0 Td ("Respected examiners, our project is a high-precision Java 21 Syntax Checker. It implements a formal) Tj ET
+BT /F1 8.8 Tf 62.0 577.0 Td (compiler front end combining a GNU Flex lexical DFA, a GNU Bison LALR\(1\) shift-reduce parser, a native C) Tj ET
+BT /F1 8.8 Tf 62.0 565.0 Td (shared library, and a modern Python Tkinter GUI. It validates modern Java 21 syntax?including record) Tj ET
+BT /F1 8.8 Tf 62.0 553.0 Td (patterns, switch guards, and sealed classes?pinpointing syntax errors to the exact line with a 100%) Tj ET
+BT /F1 8.8 Tf 62.0 541.0 Td (verified test pass rate.") Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 506.0 3 14 re f
+BT /F2 12.5 Tf 58.0 508.0 Td (2. 2-Minute Comprehensive Presentation Script) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 503.0 m 562.0 503.0 l S
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 9.2 Tf 50.0 480.0 Td (Follow this structured script during your formal project review:) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 459.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 459.5 Td (1. Motivation: Explain that modern Java 21 LTS features \(record patterns, switch guards\) are rarely) Tj ET
+BT /F1 9.0 Tf 76.0 447.0 Td (covered in academic parsers.) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 430.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 430.5 Td (2. Architecture: Walk through the pipeline from Java Source -> Flex -> Tokens -> Bison LALR\(1\) -> C DLL) Tj ET
+BT /F1 9.0 Tf 76.0 418.0 Td (-> Python ctypes -> Tkinter GUI.) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 401.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 401.5 Td (3. Grammar Engineering: Highlight how ANTLR4 reference grammar was adapted to LALR\(1\) left-recursive) Tj ET
+BT /F1 9.0 Tf 76.0 389.0 Td (rules and precedence disambiguation.) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 372.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 372.5 Td (4. Error Precision: Explain how YY_USER_ACTION synchronizes yylloc to capture the exact error line in) Tj ET
+BT /F1 9.0 Tf 76.0 360.0 Td (yyerror\(\).) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 343.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 343.5 Td (5. Results: Announce 59/59 parser tests passed and 14/14 GUI integration tests passed.) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 324.5 3 14 re f
+BT /F2 12.5 Tf 58.0 326.5 Td (3. Step-by-Step Live Demonstration Sequence) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 321.5 m 562.0 321.5 l S
+Q
+q
+0.08 0.22 0.4 rg
+50.0 291.5 512.0 20 re f
+1 1 1 rg
+BT /F2 8.5 Tf 56.0 298.5 Td (Demo Step) Tj ET
+BT /F2 8.5 Tf 184.0 298.5 Td (Action in GUI / Terminal) Tj ET
+BT /F2 8.5 Tf 361.77777777777777 298.5 Td (Expected Demonstration Outcome) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 275.5 m 562.0 275.5 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 280.5 Td (Step 1: Launch GUI) Tj ET
+BT /F1 8.2 Tf 184.0 280.5 Td (Run: python gui/app.py) Tj ET
+BT /F1 8.2 Tf 361.77777777777777 280.5 Td (Modern dark VS Code theme opens with e...) Tj ET
+0.95 0.97 0.99 rg
+50.0 259.5 512.0 16 re f
+0.85 0.88 0.92 RG 0.5 w
+50.0 259.5 m 562.0 259.5 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 264.5 Td (Step 2: Command Palette) Tj ET
+BT /F1 8.2 Tf 184.0 264.5 Td (Press Ctrl+Shift+P) Tj ET
+BT /F1 8.2 Tf 361.77777777777777 264.5 Td (Floating overlay opens; type 'Check' a...) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 243.5 m 562.0 243.5 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 248.5 Td (Step 3: Valid Java 21) Tj ET
+BT /F1 8.2 Tf 184.0 248.5 Td (Load SampleValid.java with recor...) Tj ET
+BT /F1 8.2 Tf 361.77777777777777 248.5 Td (Status bar turns green: 'Parsing Succe...) Tj ET
+0.95 0.97 0.99 rg
+50.0 227.5 512.0 16 re f
+0.85 0.88 0.92 RG 0.5 w
+50.0 227.5 m 562.0 227.5 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 232.5 Td (Step 4: Invalid Java) Tj ET
+BT /F1 8.2 Tf 184.0 232.5 Td (Introduce error: int b = ; on Li...) Tj ET
+BT /F1 8.2 Tf 361.77777777777777 232.5 Td (Status bar turns red: Line 4 highlight...) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 211.5 m 562.0 211.5 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 216.5 Td (Step 5: Code Fix) Tj ET
+BT /F1 8.2 Tf 184.0 216.5 Td (Fix error: int b = 42; and press F5) Tj ET
+BT /F1 8.2 Tf 361.77777777777777 216.5 Td (Error highlight clears instantly; gree...) Tj ET
+0.95 0.97 0.99 rg
+50.0 195.5 512.0 16 re f
+0.85 0.88 0.92 RG 0.5 w
+50.0 195.5 m 562.0 195.5 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 200.5 Td (Step 6: Batch Tests) Tj ET
+BT /F1 8.2 Tf 184.0 200.5 Td (Run: python tests/run_tests.py) Tj ET
+BT /F1 8.2 Tf 361.77777777777777 200.5 Td (Terminal displays 59/59 PASS \(100.0%\) ...) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 170.5 3 14 re f
+BT /F2 12.5 Tf 58.0 172.5 Td (4. Concluding Script) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 167.5 m 562.0 167.5 l S
+Q
+q
+0.93 0.98 0.95 rg
+50.0 95.5 512.0 62.0 re f
+0.15 0.65 0.35 rg
+50.0 95.5 4 62.0 re f
+0.08 0.45 0.2 rg
+BT /F2 8.5 Tf 62.0 143.5 Td (CLOSING STATEMENT) Tj ET
+0.15 0.2 0.25 rg
+BT /F1 8.8 Tf 62.0 131.5 Td ("To conclude, our system proves that formal compiler theory can be cleanly translated into a) Tj ET
+BT /F1 8.8 Tf 62.0 119.5 Td (high-performance, modern developer tool. All source code, grammar rules, native libraries, and tests are) Tj ET
+BT /F1 8.8 Tf 62.0 107.5 Td (complete and verified. Thank you, and I am happy to answer any questions.") Tj ET
+Q
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+8 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000281 00000 n 
+0000006453 00000 n 
+0000006523 00000 n 
+0000006598 00000 n 
+0000006666 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+6739
+%%EOF

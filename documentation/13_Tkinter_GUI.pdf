@@ -1,0 +1,187 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612.0 792.0] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R /F3 7 0 R /F4 8 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 5147 >>
+stream
+q
+0.7 0.7 0.75 RG 0.5 w
+50.0 42.0 m 562.0 42.0 l S
+0.35 0.4 0.45 rg
+BT /F1 8 Tf 50.0 30.0 Td (Java 21 Syntax Checker | GNU Flex & Bison LALR\(1\)) Tj ET
+BT /F2 8 Tf 502.0 30.0 Td (Page 1) Tj ET
+Q
+q
+0.05 0.18 0.35 rg
+50.0 663.0 512.0 75 re f
+0.1 0.6 0.85 rg
+50.0 663.0 6 75 re f
+0.85 0.92 1.0 rg
+BT /F2 9 Tf 66.0 720.0 Td (COURSE-BASED PROJECT DOCUMENTATION | DOC-13) Tj ET
+1 1 1 rg
+BT /F2 16 Tf 66.0 698.0 Td (Tkinter GUI Architecture) Tj ET
+0.8 0.85 0.9 rg
+BT /F1 9.5 Tf 66.0 680.0 Td (VS Code-Style UI, Command Palette, & Line Number Synchronization) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 628.0 3 14 re f
+BT /F2 12.5 Tf 58.0 630.0 Td (1. Graphical User Interface Overview) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 625.0 m 562.0 625.0 l S
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 9.2 Tf 50.0 602.0 Td (The GUI application \(gui/app.py\) is a modern, VS Code-inspired developer tool built entirely with Python) Tj ET
+BT /F1 9.2 Tf 50.0 589.0 Td (standard libraries. It provides an intuitive environment for writing, opening, and verifying Java 21 source) Tj ET
+BT /F1 9.2 Tf 50.0 576.0 Td (code.) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 553.0 3 14 re f
+BT /F2 12.5 Tf 58.0 555.0 Td (2. Core GUI Subsystems) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 550.0 m 562.0 550.0 l S
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 527.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 527.5 Td (Editor with Synchronized Gutter: LineNumberText wraps a text area and left canvas displaying) Tj ET
+BT /F1 9.0 Tf 76.0 515.0 Td (right-aligned line numbers.) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 498.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 498.5 Td (Dark Developer Theme: Custom palette \(#1e1e1e editor, #252526 panels, #007acc accent, #5a1d1d error) Tj ET
+BT /F1 9.0 Tf 76.0 486.0 Td (tint\).) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 469.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 469.5 Td (Command Palette \(Ctrl+Shift+P / F1\): Floating quick-pick overlay with real-time fuzzy search across all) Tj ET
+BT /F1 9.0 Tf 76.0 457.0 Td (commands.) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 440.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 440.5 Td (Status Bar: Compact bar displaying status, cursor position \(Ln X, Col Y\), encoding \(UTF-8\), and engine) Tj ET
+BT /F1 9.0 Tf 76.0 428.0 Td (status.) Tj ET
+Q
+q
+0.1 0.4 0.7 rg
+BT /F2 9.0 Tf 64.0 411.5 Td (?) Tj ET
+0.15 0.18 0.22 rg
+BT /F1 9.0 Tf 76.0 411.5 Td (Output Panel: 4-line terminal log recording timestamped execution history \($ check Sample.java\).) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 392.5 3 14 re f
+BT /F2 12.5 Tf 58.0 394.5 Td (3. Keyboard Shortcuts Reference) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 389.5 m 562.0 389.5 l S
+Q
+q
+0.08 0.22 0.4 rg
+50.0 359.5 512.0 20 re f
+1 1 1 rg
+BT /F2 8.5 Tf 56.0 366.5 Td (Shortcut Key) Tj ET
+BT /F2 8.5 Tf 212.44444444444446 366.5 Td (Action Description) Tj ET
+BT /F2 8.5 Tf 425.77777777777777 366.5 Td (Palette Command) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 343.5 m 562.0 343.5 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 348.5 Td (Ctrl + Shift + P / F1) Tj ET
+BT /F1 8.2 Tf 212.44444444444446 348.5 Td (Open Command Palette quick-picker) Tj ET
+BT /F1 8.2 Tf 425.77777777777777 348.5 Td (Open Command Palette) Tj ET
+0.95 0.97 0.99 rg
+50.0 327.5 512.0 16 re f
+0.85 0.88 0.92 RG 0.5 w
+50.0 327.5 m 562.0 327.5 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 332.5 Td (Ctrl + Enter / F5) Tj ET
+BT /F1 8.2 Tf 212.44444444444446 332.5 Td (Check Java Syntax) Tj ET
+BT /F1 8.2 Tf 425.77777777777777 332.5 Td (Check Syntax) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 311.5 m 562.0 311.5 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 316.5 Td (Ctrl + O) Tj ET
+BT /F1 8.2 Tf 212.44444444444446 316.5 Td (Open .java source file from disk) Tj ET
+BT /F1 8.2 Tf 425.77777777777777 316.5 Td (Open File...) Tj ET
+0.95 0.97 0.99 rg
+50.0 295.5 512.0 16 re f
+0.85 0.88 0.92 RG 0.5 w
+50.0 295.5 m 562.0 295.5 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 300.5 Td (Ctrl + S) Tj ET
+BT /F1 8.2 Tf 212.44444444444446 300.5 Td (Save current editor text to file) Tj ET
+BT /F1 8.2 Tf 425.77777777777777 300.5 Td (Save File) Tj ET
+0.85 0.88 0.92 RG 0.5 w
+50.0 279.5 m 562.0 279.5 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 284.5 Td (Ctrl + L) Tj ET
+BT /F1 8.2 Tf 212.44444444444446 284.5 Td (Clear editor buffer and status) Tj ET
+BT /F1 8.2 Tf 425.77777777777777 284.5 Td (Clear Editor) Tj ET
+0.95 0.97 0.99 rg
+50.0 263.5 512.0 16 re f
+0.85 0.88 0.92 RG 0.5 w
+50.0 263.5 m 562.0 263.5 l S
+0.15 0.18 0.22 rg
+BT /F1 8.2 Tf 56.0 268.5 Td (Escape) Tj ET
+BT /F1 8.2 Tf 212.44444444444446 268.5 Td (Dismiss Command Palette overlay) Tj ET
+BT /F1 8.2 Tf 425.77777777777777 268.5 Td (Close Palette) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 238.5 3 14 re f
+BT /F2 12.5 Tf 58.0 240.5 Td (4. Visual Error-Line Highlighting) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 235.5 m 562.0 235.5 l S
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 9.2 Tf 50.0 212.5 Td (When an error on line N is returned, the editor tags the line range \('N.0' to 'N.end+1c'\) with the) Tj ET
+BT /F1 9.2 Tf 50.0 199.5 Td (error_line tag \(soft red background #5a1d1d\), colors gutter number N red, and scrolls line N into focus) Tj ET
+BT /F1 9.2 Tf 50.0 186.5 Td (using self.editor.text.see\('N.0'\).) Tj ET
+Q
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+8 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold >>
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000281 00000 n 
+0000005480 00000 n 
+0000005550 00000 n 
+0000005625 00000 n 
+0000005693 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+5766
+%%EOF

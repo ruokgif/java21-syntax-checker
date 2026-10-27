@@ -1,0 +1,407 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R 7 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612.0 792.0] /Contents 4 0 R /Resources << /Font << /F1 9 0 R /F2 10 0 R /F3 11 0 R /F4 12 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 4473 >>
+stream
+q
+0.7 0.7 0.75 RG 0.5 w
+50.0 42.0 m 562.0 42.0 l S
+0.35 0.4 0.45 rg
+BT /F1 8 Tf 50.0 30.0 Td (Java 21 Syntax Checker | GNU Flex & Bison LALR\(1\)) Tj ET
+BT /F2 8 Tf 502.0 30.0 Td (Page 1) Tj ET
+Q
+q
+0.05 0.18 0.35 rg
+50.0 663.0 512.0 75 re f
+0.1 0.6 0.85 rg
+50.0 663.0 6 75 re f
+0.85 0.92 1.0 rg
+BT /F2 9 Tf 66.0 720.0 Td (COURSE-BASED PROJECT DOCUMENTATION | DOC-19) Tj ET
+1 1 1 rg
+BT /F2 16 Tf 66.0 698.0 Td (Comprehensive Viva Q&A Master Guide) Tj ET
+0.8 0.85 0.9 rg
+BT /F1 9.5 Tf 66.0 680.0 Td (50+ Project-Specific Viva Questions, Answers, & Concise Examiner Phrases) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 628.0 3 14 re f
+BT /F2 12.5 Tf 58.0 630.0 Td (Section A: Basic Project Questions) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 625.0 m 562.0 625.0 l S
+Q
+q
+0.08 0.25 0.45 rg
+BT /F2 9.5 Tf 50.0 605.0 Td (Q1: What is the primary purpose of this project?) Tj ET
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 8.8 Tf 50.0 587.0 Td (Answer: It is a formal compiler front end that checks the grammatical validity of Java 21 source code and) Tj ET
+BT /F1 8.8 Tf 50.0 575.0 Td (locates syntax errors to the exact line.) Tj ET
+Q
+q
+0.96 0.96 0.97 rg
+50.0 521.0 512.0 50.0 re f
+0.4 0.45 0.5 rg
+50.0 521.0 4 50.0 re f
+0.2 0.25 0.3 rg
+BT /F2 8.5 Tf 62.0 557.0 Td (EXAMINER KEY PHRASE) Tj ET
+0.15 0.2 0.25 rg
+BT /F1 8.8 Tf 62.0 545.0 Td (Viva Bullet: "It validates Java 21 source code syntax using Flex and Bison and highlights errors in a) Tj ET
+BT /F1 8.8 Tf 62.0 533.0 Td (Tkinter GUI.") Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+BT /F2 9.5 Tf 50.0 499.0 Td (Q2: Is this project a full Java compiler?) Tj ET
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 8.8 Tf 50.0 481.0 Td (Answer: No. It is strictly a compiler front-end syntax checker. It does not perform semantic analysis, generate) Tj ET
+BT /F1 8.8 Tf 50.0 469.0 Td (bytecode, or execute programs.) Tj ET
+Q
+q
+0.96 0.96 0.97 rg
+50.0 415.0 512.0 50.0 re f
+0.4 0.45 0.5 rg
+50.0 415.0 4 50.0 re f
+0.2 0.25 0.3 rg
+BT /F2 8.5 Tf 62.0 451.0 Td (EXAMINER KEY PHRASE) Tj ET
+0.15 0.2 0.25 rg
+BT /F1 8.8 Tf 62.0 439.0 Td (Viva Bullet: "No, it is a syntax checker only; it does not perform semantic analysis, bytecode generation,) Tj ET
+BT /F1 8.8 Tf 62.0 427.0 Td (or execution.") Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+BT /F2 9.5 Tf 50.0 393.0 Td (Q3: What version of Java is targeted and why?) Tj ET
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 8.8 Tf 50.0 375.0 Td (Answer: Java 21 \(LTS\). It is the latest long-term support version that finalized modern syntax like record) Tj ET
+BT /F1 8.8 Tf 50.0 363.0 Td (patterns, switch patterns, and sealed types.) Tj ET
+Q
+q
+0.96 0.96 0.97 rg
+50.0 309.0 512.0 50.0 re f
+0.4 0.45 0.5 rg
+50.0 309.0 4 50.0 re f
+0.2 0.25 0.3 rg
+BT /F2 8.5 Tf 62.0 345.0 Td (EXAMINER KEY PHRASE) Tj ET
+0.15 0.2 0.25 rg
+BT /F1 8.8 Tf 62.0 333.0 Td (Viva Bullet: "Java 21 LTS because it contains finalized standard syntax for modern features like record) Tj ET
+BT /F1 8.8 Tf 62.0 321.0 Td (patterns.") Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 282.0 3 14 re f
+BT /F2 12.5 Tf 58.0 284.0 Td (Section B: Compiler Design Concepts) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 279.0 m 562.0 279.0 l S
+Q
+q
+0.08 0.25 0.45 rg
+BT /F2 9.5 Tf 50.0 259.0 Td (Q4: What is a compiler front end?) Tj ET
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 8.8 Tf 50.0 241.0 Td (Answer: The front end consists of lexical analysis, syntax analysis, and semantic analysis, converting source) Tj ET
+BT /F1 8.8 Tf 50.0 229.0 Td (code into an intermediate representation.) Tj ET
+Q
+q
+0.96 0.96 0.97 rg
+50.0 175.0 512.0 50.0 re f
+0.4 0.45 0.5 rg
+50.0 175.0 4 50.0 re f
+0.2 0.25 0.3 rg
+BT /F2 8.5 Tf 62.0 211.0 Td (EXAMINER KEY PHRASE) Tj ET
+0.15 0.2 0.25 rg
+BT /F1 8.8 Tf 62.0 199.0 Td (Viva Bullet: "The front-end phases process source code into an intermediate format independently of target) Tj ET
+BT /F1 8.8 Tf 62.0 187.0 Td (machine code.") Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+BT /F2 9.5 Tf 50.0 153.0 Td (Q5: What is a Context-Free Grammar \(CFG\)?) Tj ET
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 8.8 Tf 50.0 135.0 Td (Answer: A 4-tuple \(V, Sigma, R, S\) defining language syntax using recursive production rules that map) Tj ET
+BT /F1 8.8 Tf 50.0 123.0 Td (nonterminals to strings of terminals.) Tj ET
+Q
+q
+0.96 0.96 0.97 rg
+50.0 69.0 512.0 50.0 re f
+0.4 0.45 0.5 rg
+50.0 69.0 4 50.0 re f
+0.2 0.25 0.3 rg
+BT /F2 8.5 Tf 62.0 105.0 Td (EXAMINER KEY PHRASE) Tj ET
+0.15 0.2 0.25 rg
+BT /F1 8.8 Tf 62.0 93.0 Td (Viva Bullet: "A formal grammar whose production rules map a single nonterminal symbol to a string of) Tj ET
+BT /F1 8.8 Tf 62.0 81.0 Td (terminals and nonterminals.") Tj ET
+Q
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612.0 792.0] /Contents 6 0 R /Resources << /Font << /F1 9 0 R /F2 10 0 R /F3 11 0 R /F4 12 0 R >> >> >>
+endobj
+6 0 obj
+<< /Length 4555 >>
+stream
+q
+0.1 0.2 0.35 rg
+BT /F2 8.5 Tf 50.0 756.0 Td (DOC-19: Comprehensive Viva Q&A Master Guide) Tj ET
+0.7 0.7 0.75 RG 0.5 w
+50.0 750.0 m 562.0 750.0 l S
+Q
+q
+0.7 0.7 0.75 RG 0.5 w
+50.0 42.0 m 562.0 42.0 l S
+0.35 0.4 0.45 rg
+BT /F1 8 Tf 50.0 30.0 Td (Java 21 Syntax Checker | GNU Flex & Bison LALR\(1\)) Tj ET
+BT /F2 8 Tf 502.0 30.0 Td (Page 2) Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 713.0 3 14 re f
+BT /F2 12.5 Tf 58.0 715.0 Td (Section C: GNU Flex \(Lexical Analysis\)) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 710.0 m 562.0 710.0 l S
+Q
+q
+0.08 0.25 0.45 rg
+BT /F2 9.5 Tf 50.0 690.0 Td (Q6: Why choose GNU Flex?) Tj ET
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 8.8 Tf 50.0 672.0 Td (Answer: Flex compiles regular expressions into high-speed table-driven DFAs in C, scanning tokens in linear) Tj ET
+BT /F1 8.8 Tf 50.0 660.0 Td (O\(n\) time.) Tj ET
+Q
+q
+0.96 0.96 0.97 rg
+50.0 606.0 512.0 50.0 re f
+0.4 0.45 0.5 rg
+50.0 606.0 4 50.0 re f
+0.2 0.25 0.3 rg
+BT /F2 8.5 Tf 62.0 642.0 Td (EXAMINER KEY PHRASE) Tj ET
+0.15 0.2 0.25 rg
+BT /F1 8.8 Tf 62.0 630.0 Td (Viva Bullet: "Flex generates fast, deterministic finite automata in C that tokenize source code in linear) Tj ET
+BT /F1 8.8 Tf 62.0 618.0 Td (time.") Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+BT /F2 9.5 Tf 50.0 584.0 Td (Q7: What does YY_USER_ACTION do in Flex?) Tj ET
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 8.8 Tf 50.0 566.0 Td (Answer: It is a macro executed before every matched token action to update yylloc line and column coordinates.) Tj ET
+Q
+q
+0.96 0.96 0.97 rg
+50.0 512.0 512.0 50.0 re f
+0.4 0.45 0.5 rg
+50.0 512.0 4 50.0 re f
+0.2 0.25 0.3 rg
+BT /F2 8.5 Tf 62.0 548.0 Td (EXAMINER KEY PHRASE) Tj ET
+0.15 0.2 0.25 rg
+BT /F1 8.8 Tf 62.0 536.0 Td (Viva Bullet: "It is a Flex hook that synchronizes token line and column coordinates in yylloc before every) Tj ET
+BT /F1 8.8 Tf 62.0 524.0 Td (action.") Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 485.0 3 14 re f
+BT /F2 12.5 Tf 58.0 487.0 Td (Section D: GNU Bison & LALR\(1\) Parsing) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 482.0 m 562.0 482.0 l S
+Q
+q
+0.08 0.25 0.45 rg
+BT /F2 9.5 Tf 50.0 462.0 Td (Q8: What is LALR\(1\) parsing?) Tj ET
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 8.8 Tf 50.0 444.0 Td (Answer: Look-Ahead LR parsing with 1 token lookahead. It merges LR\(1\) states sharing identical core item sets) Tj ET
+BT /F1 8.8 Tf 50.0 432.0 Td (to reduce table size.) Tj ET
+Q
+q
+0.96 0.96 0.97 rg
+50.0 378.0 512.0 50.0 re f
+0.4 0.45 0.5 rg
+50.0 378.0 4 50.0 re f
+0.2 0.25 0.3 rg
+BT /F2 8.5 Tf 62.0 414.0 Td (EXAMINER KEY PHRASE) Tj ET
+0.15 0.2 0.25 rg
+BT /F1 8.8 Tf 62.0 402.0 Td (Viva Bullet: "LALR\(1\) is a bottom-up parsing method that merges identical LR\(1\) core states to create) Tj ET
+BT /F1 8.8 Tf 62.0 390.0 Td (compact, fast parsing tables.") Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+BT /F2 9.5 Tf 50.0 356.0 Td (Q9: Why choose LALR\(1\) over Recursive Descent?) Tj ET
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 8.8 Tf 50.0 338.0 Td (Answer: LALR\(1\) handles left-recursion naturally, eliminates recursive call stack overhead, and automates table) Tj ET
+BT /F1 8.8 Tf 50.0 326.0 Td (generation from CFGs.) Tj ET
+Q
+q
+0.96 0.96 0.97 rg
+50.0 272.0 512.0 50.0 re f
+0.4 0.45 0.5 rg
+50.0 272.0 4 50.0 re f
+0.2 0.25 0.3 rg
+BT /F2 8.5 Tf 62.0 308.0 Td (EXAMINER KEY PHRASE) Tj ET
+0.15 0.2 0.25 rg
+BT /F1 8.8 Tf 62.0 296.0 Td (Viva Bullet: "LALR\(1\) handles left-recursion naturally, avoids recursion overflow, and provides automated) Tj ET
+BT /F1 8.8 Tf 62.0 284.0 Td (table generation.") Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+BT /F2 9.5 Tf 50.0 250.0 Td (Q10: How is the dangling-else ambiguity resolved?) Tj ET
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 8.8 Tf 50.0 232.0 Td (Answer: By assigning higher precedence to ELSE over LOWER_THAN_ELSE, causing the parser to shift and bind) Tj ET
+BT /F1 8.8 Tf 50.0 220.0 Td ('else' to the innermost 'if'.) Tj ET
+Q
+q
+0.96 0.96 0.97 rg
+50.0 166.0 512.0 50.0 re f
+0.4 0.45 0.5 rg
+50.0 166.0 4 50.0 re f
+0.2 0.25 0.3 rg
+BT /F2 8.5 Tf 62.0 202.0 Td (EXAMINER KEY PHRASE) Tj ET
+0.15 0.2 0.25 rg
+BT /F1 8.8 Tf 62.0 190.0 Td (Viva Bullet: "We assign ELSE higher precedence than LOWER_THAN_ELSE, causing the parser to shift and bind) Tj ET
+BT /F1 8.8 Tf 62.0 178.0 Td ('else' to the closest 'if'.") Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 139.0 3 14 re f
+BT /F2 12.5 Tf 58.0 141.0 Td (Section E: C Backend & Python ctypes) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 136.0 m 562.0 136.0 l S
+Q
+q
+0.08 0.25 0.45 rg
+BT /F2 9.5 Tf 50.0 116.0 Td (Q11: What are the return codes of check_syntax\(\)?) Tj ET
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 8.8 Tf 50.0 98.0 Td (Answer: 0 for success \(valid syntax\), 1 for syntax error, and 2 for file I/O or system error.) Tj ET
+Q
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612.0 792.0] /Contents 8 0 R /Resources << /Font << /F1 9 0 R /F2 10 0 R /F3 11 0 R /F4 12 0 R >> >> >>
+endobj
+8 0 obj
+<< /Length 2128 >>
+stream
+q
+0.1 0.2 0.35 rg
+BT /F2 8.5 Tf 50.0 756.0 Td (DOC-19: Comprehensive Viva Q&A Master Guide) Tj ET
+0.7 0.7 0.75 RG 0.5 w
+50.0 750.0 m 562.0 750.0 l S
+Q
+q
+0.7 0.7 0.75 RG 0.5 w
+50.0 42.0 m 562.0 42.0 l S
+0.35 0.4 0.45 rg
+BT /F1 8 Tf 50.0 30.0 Td (Java 21 Syntax Checker | GNU Flex & Bison LALR\(1\)) Tj ET
+BT /F2 8 Tf 502.0 30.0 Td (Page 3) Tj ET
+Q
+q
+0.96 0.96 0.97 rg
+50.0 690.0 512.0 38.0 re f
+0.4 0.45 0.5 rg
+50.0 690.0 4 38.0 re f
+0.2 0.25 0.3 rg
+BT /F2 8.5 Tf 62.0 714.0 Td (EXAMINER KEY PHRASE) Tj ET
+0.15 0.2 0.25 rg
+BT /F1 8.8 Tf 62.0 702.0 Td (Viva Bullet: "0 = Valid Syntax, 1 = Syntax Error, 2 = File I/O Error.") Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+BT /F2 9.5 Tf 50.0 668.0 Td (Q12: Why generate both a DLL and an EXE?) Tj ET
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 8.8 Tf 50.0 650.0 Td (Answer: The DLL allows in-memory ctypes execution for the GUI, while the EXE provides a standalone CLI tool for) Tj ET
+BT /F1 8.8 Tf 50.0 638.0 Td (scripts.) Tj ET
+Q
+q
+0.96 0.96 0.97 rg
+50.0 584.0 512.0 50.0 re f
+0.4 0.45 0.5 rg
+50.0 584.0 4 50.0 re f
+0.2 0.25 0.3 rg
+BT /F2 8.5 Tf 62.0 620.0 Td (EXAMINER KEY PHRASE) Tj ET
+0.15 0.2 0.25 rg
+BT /F1 8.8 Tf 62.0 608.0 Td (Viva Bullet: "The DLL enables fast in-memory GUI execution via ctypes, while the EXE provides a standalone) Tj ET
+BT /F1 8.8 Tf 62.0 596.0 Td (CLI tool.") Tj ET
+Q
+q
+0.08 0.25 0.45 rg
+50.0 557.0 3 14 re f
+BT /F2 12.5 Tf 58.0 559.0 Td (Section F: Testing & Verification) Tj ET
+0.8 0.85 0.9 RG 0.75 w
+50.0 554.0 m 562.0 554.0 l S
+Q
+q
+0.08 0.25 0.45 rg
+BT /F2 9.5 Tf 50.0 534.0 Td (Q13: How many automated tests were performed?) Tj ET
+Q
+q
+0.15 0.18 0.22 rg
+BT /F1 8.8 Tf 50.0 516.0 Td (Answer: 73 automated tests in total: 59 parser tests in run_tests.py and 14 GUI tests in test_gui_backend.py,) Tj ET
+BT /F1 8.8 Tf 50.0 504.0 Td (with a 100% pass rate.) Tj ET
+Q
+q
+0.96 0.96 0.97 rg
+50.0 462.0 512.0 38.0 re f
+0.4 0.45 0.5 rg
+50.0 462.0 4 38.0 re f
+0.2 0.25 0.3 rg
+BT /F2 8.5 Tf 62.0 486.0 Td (EXAMINER KEY PHRASE) Tj ET
+0.15 0.2 0.25 rg
+BT /F1 8.8 Tf 62.0 474.0 Td (Viva Bullet: "73 automated tests in total: 59 parser tests and 14 GUI integration tests, all passed 100%.") Tj ET
+Q
+endstream
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+10 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+11 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+12 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier-Bold >>
+endobj
+xref
+0 13
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000133 00000 n 
+0000000296 00000 n 
+0000004821 00000 n 
+0000004984 00000 n 
+0000009591 00000 n 
+0000009754 00000 n 
+0000011934 00000 n 
+0000012004 00000 n 
+0000012080 00000 n 
+0000012149 00000 n 
+trailer
+<< /Size 13 /Root 1 0 R >>
+startxref
+12223
+%%EOF

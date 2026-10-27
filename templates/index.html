@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java 21 Syntax Checker — GNU Flex & Bison LALR(1)</title>
+    <meta name="description" content="Online Java 21 Syntax Checker powered by a formal GNU Flex Lexer and GNU Bison LALR(1) parser with exact line-number error reporting.">
+    
+    <!-- Google Fonts: Inter & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- CodeMirror 5 CSS & Dracula Theme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/theme/dracula.min.css">
+    
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Navigation / Header -->
+        <header class="app-header">
+            <div class="header-branding">
+                <div class="logo-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M16 18l6-6-6-6M8 6l-6 6 6 6" />
+                    </svg>
+                </div>
+                <div>
+                    <h1 class="header-title">Java 21 Syntax Checker</h1>
+                    <p class="header-subtitle">Compiler Design Project &middot; GNU Flex + Bison LALR(1)</p>
+                </div>
+            </div>
+            
+            <div class="header-badges">
+                <span class="badge badge-engine">
+                    <span class="pulse-dot"></span>
+                    LALR(1) Parser
+                </span>
+                <span class="badge badge-ver">Java 21 Syntax</span>
+            </div>
+        </header>
+
+        <!-- Main Workspace Grid -->
+        <main class="workspace-grid">
+            <!-- Left: Editor Pane -->
+            <section class="editor-pane card">
+                <div class="toolbar">
+                    <div class="toolbar-left">
+                        <div class="sample-selector-wrap">
+                            <label for="sampleSelect" class="sr-only">Load Sample Code</label>
+                            <select id="sampleSelect" class="btn btn-secondary select-input" title="Select a sample Java 21 program">
+                                <option value="" disabled selected>Load Sample Code...</option>
+                                <option value="records_patterns">Java 21: Record Patterns</option>
+                                <option value="switch_guards">Java 21: Switch & When Guards</option>
+                                <option value="array_initializers">Array Initializers & Multi-Dim</option>
+                                <option value="sealed_hierarchy">Sealed Classes & Interfaces</option>
+                                <option value="syntax_error_demo">Intentional Syntax Error</option>
+                            </select>
+                        </div>
+
+                        <label for="fileInput" class="btn btn-secondary file-upload-btn" title="Upload a .java source file">
+                            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M17 8l-5-5-5 5M12 3v12" />
+                            </svg>
+                            <span>Upload .java</span>
+                            <input type="file" id="fileInput" accept=".java,.txt" class="hidden-input">
+                        </label>
+
+                        <button id="clearBtn" class="btn btn-ghost" title="Clear editor content">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M19 6L5 20M5 6l14 14" />
+                            </svg>
+                            <span>Clear</span>
+                        </button>
+                    </div>
+
+                    <div class="toolbar-right">
+                        <button id="checkBtn" class="btn btn-primary" title="Check Syntax (Ctrl+Enter / F5)">
+                            <svg class="play-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                            </svg>
+                            <span class="btn-text">Check Syntax</span>
+                            <span class="shortcut-key">F5</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Editor Drop Area -->
+                <div class="editor-wrapper" id="dropZone">
+                    <div id="dropOverlay" class="drop-overlay">
+                        <div class="drop-message">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M17 8l-5-5-5 5M12 3v12" />
+                            </svg>
+                            <span>Drop .java file here to load</span>
+                        </div>
+                    </div>
+                    <textarea id="codeEditor" placeholder="// Enter Java 21 code here or upload a .java file..."></textarea>
+                </div>
+
+                <!-- Editor Footer -->
+                <div class="editor-footer">
+                    <span id="lineColCounter" class="footer-stat">Line 1, Col 1</span>
+                    <span id="charCounter" class="footer-stat">0 chars &middot; 0 lines</span>
+                </div>
+            </section>
+
+            <!-- Right: Diagnostics & Result Pane -->
+            <aside class="results-pane card">
+                <div class="panel-header">
+                    <h2 class="panel-title">Parser Diagnostics</h2>
+                    <span id="statusBadge" class="status-pill status-ready">Ready</span>
+                </div>
+
+                <div class="panel-content">
+                    <!-- Loading Spinner Overlay -->
+                    <div id="loadingIndicator" class="loading-state hidden">
+                        <div class="spinner"></div>
+                        <p class="loading-text">Analyzing Java 21 syntax with LALR(1) parser...</p>
+                    </div>
+
+                    <!-- Result Output Banner -->
+                    <div id="resultBanner" class="result-banner banner-neutral">
+                        <div class="banner-icon-wrap" id="bannerIcon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="12" y1="16" x2="12" y2="12"></line>
+                                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                            </svg>
+                        </div>
+                        <div class="banner-text">
+                            <h3 id="resultTitle" class="banner-heading">Awaiting Input</h3>
+                            <p id="resultMessage" class="banner-desc">Type Java code or select a sample, then click "Check Syntax".</p>
+                        </div>
+                    </div>
+
+                    <!-- Error Jump Card (Visible when syntax error found) -->
+                    <div id="errorDetailsCard" class="error-details-card hidden">
+                        <div class="error-meta-grid">
+                            <div class="meta-item">
+                                <span class="meta-label">Offending Line</span>
+                                <span id="errorLineNum" class="meta-value">—</span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">Near Token</span>
+                                <code id="errorTokenVal" class="meta-code">—</code>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">Elapsed Time</span>
+                                <span id="errorLatency" class="meta-value">—</span>
+                            </div>
+                        </div>
+
+                        <button id="jumpToLineBtn" class="btn btn-jump" title="Jump to error line in editor">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M7 17l9.2-9.2M17 17V7H7" />
+                            </svg>
+                            <span>Jump to Line <span id="jumpLineText"></span></span>
+                        </button>
+                    </div>
+
+                    <!-- Grammar Specification Summary -->
+                    <div class="spec-card">
+                        <h4 class="spec-title">Grammar Capabilities</h4>
+                        <div class="spec-tags">
+                            <span class="spec-tag">Java 21 Record Patterns</span>
+                            <span class="spec-tag">Switch When Guards</span>
+                            <span class="spec-tag">Array Initializers</span>
+                            <span class="spec-tag">Sealed Types & Permits</span>
+                            <span class="spec-tag">Generics & Wildcards</span>
+                            <span class="spec-tag">Lambda & Method Ref</span>
+                            <span class="spec-tag">Text Blocks</span>
+                            <span class="spec-tag">Try-With-Resources</span>
+                        </div>
+                    </div>
+
+                    <!-- Terminal Output Console -->
+                    <div class="console-card">
+                        <div class="console-header">
+                            <span class="console-title">Raw Parser Output</span>
+                            <button id="copyConsoleBtn" class="btn-tiny" title="Copy raw output">Copy</button>
+                        </div>
+                        <pre id="rawConsoleOutput" class="console-body">javacheck parser engine initialized.</pre>
+                    </div>
+                </div>
+            </aside>
+        </main>
+
+        <!-- Footer -->
+        <footer class="app-footer">
+            <p>Java 21 Syntax Checker &middot; Academic Compiler Design Implementation (Flex Lexer + GNU Bison LALR(1) Parser)</p>
+        </footer>
+    </div>
+
+    <!-- CodeMirror 5 Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/mode/clike/clike.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/addon/edit/matchbrackets.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/addon/edit/closebrackets.min.js"></script>
+    
+    <!-- Application Logic -->
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
